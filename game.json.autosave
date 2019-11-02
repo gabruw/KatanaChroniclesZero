@@ -464,7 +464,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 2.104
+        "zoomFactor": 1
       },
       "objectsGroups": [],
       "variables": [],
