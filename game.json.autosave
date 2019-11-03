@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.zero.chronicles.katana",
-    "projectFile": "C:\\Users\\mathe\\Documents\\GitHub\\KatanaChroniclesZero\\game.json",
+    "projectFile": "C:\\Users\\snyp_\\Documents\\GitHub\\KatanaChroniclesZero\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -441,6 +441,186 @@
         "name": "NewFile-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Foe 2/Walk/generic-enemy-walking-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Foe 2\\Walk\\generic-enemy-walking-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Foe 2/Walk/generic-enemy-walking-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Foe 2\\Walk\\generic-enemy-walking-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Foe 2/Walk/generic-enemy-walking-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Foe 2\\Walk\\generic-enemy-walking-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Foe 2/Walk/generic-enemy-walking-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Foe 2\\Walk\\generic-enemy-walking-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Foe 2/Idle/generic-enemy-stoped-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Foe 2\\Idle\\generic-enemy-stoped-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Foe 2/Idle/generic-enemy-stoped-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Foe 2\\Idle\\generic-enemy-stoped-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Foe 2/Idle/generic-enemy-stoped-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Foe 2\\Idle\\generic-enemy-stoped-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Foe 2/Generic-Attack_1/generic-enemy-attack-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Foe 2\\Generic-Attack_1\\generic-enemy-attack-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Foe 2/Generic-Attack_1/generic-enemy-attack-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Foe 2\\Generic-Attack_1\\generic-enemy-attack-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Foe 2/Generic-Attack_1/generic-enemy-attack-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Foe 2\\Generic-Attack_1\\generic-enemy-attack-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Foe 2/Generic-Attack_1/generic-enemy-attack-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Foe 2\\Generic-Attack_1\\generic-enemy-attack-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Foe 2/Generic-Attack_1/generic-enemy-attack-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Foe 2\\Generic-Attack_1\\generic-enemy-attack-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Foe 2/Generic-Attack_2/generic-enemy-attack2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Foe 2\\Generic-Attack_2\\generic-enemy-attack2-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Foe 2/Generic-Attack_2/generic-enemy-attack2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Foe 2\\Generic-Attack_2\\generic-enemy-attack2-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Foe 2/Generic-Attack_2/generic-enemy-attack2-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Foe 2\\Generic-Attack_2\\generic-enemy-attack2-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Foe 2/Generic-Attack_2/generic-enemy-attack2-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Foe 2\\Generic-Attack_2\\generic-enemy-attack2-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Foe 2/Generic-Attack_2/generic-enemy-attack2-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Foe 2\\Generic-Attack_2\\generic-enemy-attack2-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Foe 2/Generic-Attack_2/generic-enemy-attack2-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Foe 2\\Generic-Attack_2\\generic-enemy-attack2-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Foe 2/Death/generic-enemy-die-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Foe 2\\Death\\generic-enemy-die-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Foe 2/Death/generic-enemy-die-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Foe 2\\Death\\generic-enemy-die-2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -482,7 +662,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Game",
           "locked": false,
           "name": "Zero",
           "width": 0,
@@ -497,13 +677,28 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "",
+          "layer": "Game",
           "locked": false,
-          "name": "NewObject",
+          "name": "TestTexture",
           "width": 488,
           "x": 89,
           "y": 205,
-          "zOrder": 2,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Game",
+          "locked": false,
+          "name": "GenericSwordman",
+          "width": 0,
+          "x": 374,
+          "y": 165,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -545,7 +740,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "generic-enemy-stoped-1.png",
+                      "image": "Sprites\\Foe 2\\Idle\\generic-enemy-stoped-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -561,27 +756,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 1.19792,
-                            "y": 0.555556
+                            "x": 0.0341797,
+                            "y": 0.625
                           },
                           {
-                            "x": 16.1979,
-                            "y": 0.277778
+                            "x": 19.0967,
+                            "y": 0
                           },
                           {
-                            "x": 24.5312,
-                            "y": 42.7778
+                            "x": 23.7842,
+                            "y": 42.8125
                           },
                           {
-                            "x": -0.190972,
-                            "y": 42.5
+                            "x": 0.34668,
+                            "y": 42.1875
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "generic-enemy-stoped-2.png",
+                      "image": "Sprites\\Foe 2\\Idle\\generic-enemy-stoped-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -597,27 +792,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 1.19792,
-                            "y": 0.555556
+                            "x": 0.0341797,
+                            "y": 0.625
                           },
                           {
-                            "x": 16.1979,
-                            "y": 0.277778
+                            "x": 19.0967,
+                            "y": 0
                           },
                           {
-                            "x": 24.5312,
-                            "y": 42.7778
+                            "x": 23.7842,
+                            "y": 42.8125
                           },
                           {
-                            "x": -0.190972,
-                            "y": 42.5
+                            "x": 0.34668,
+                            "y": 42.1875
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "generic-enemy-stoped-3.png",
+                      "image": "Sprites\\Foe 2\\Idle\\generic-enemy-stoped-3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -633,20 +828,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 1.19792,
-                            "y": 0.555556
+                            "x": 0.0341797,
+                            "y": 0.625
                           },
                           {
-                            "x": 16.1979,
-                            "y": 0.277778
+                            "x": 19.0967,
+                            "y": 0
                           },
                           {
-                            "x": 24.5312,
-                            "y": 42.7778
+                            "x": 23.7842,
+                            "y": 42.8125
                           },
                           {
-                            "x": -0.190972,
-                            "y": 42.5
+                            "x": 0.34668,
+                            "y": 42.1875
                           }
                         ]
                       ]
@@ -664,8 +859,8 @@
                   "timeBetweenFrames": 0.2,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "generic-enemy-walking-1.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Foe 2\\Walk\\generic-enemy-walking-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -678,11 +873,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0.532227,
+                            "y": 0
+                          },
+                          {
+                            "x": 21.3477,
+                            "y": 0.9375
+                          },
+                          {
+                            "x": 26.6602,
+                            "y": 41.875
+                          },
+                          {
+                            "x": 0.532227,
+                            "y": 41.875
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "generic-enemy-walking-2.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Foe 2\\Walk\\generic-enemy-walking-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -695,11 +909,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0.532227,
+                            "y": 0
+                          },
+                          {
+                            "x": 21.3477,
+                            "y": 0.9375
+                          },
+                          {
+                            "x": 26.6602,
+                            "y": 41.875
+                          },
+                          {
+                            "x": 0.532227,
+                            "y": 41.875
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "generic-enemy-walking-3.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Foe 2\\Walk\\generic-enemy-walking-3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -712,11 +945,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0.532227,
+                            "y": 0
+                          },
+                          {
+                            "x": 21.3477,
+                            "y": 0.9375
+                          },
+                          {
+                            "x": 26.6602,
+                            "y": 41.875
+                          },
+                          {
+                            "x": 0.532227,
+                            "y": 41.875
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "generic-enemy-walking-4.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Foe 2\\Walk\\generic-enemy-walking-4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -729,7 +981,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0.532227,
+                            "y": 0
+                          },
+                          {
+                            "x": 21.3477,
+                            "y": 0.9375
+                          },
+                          {
+                            "x": 26.6602,
+                            "y": 41.875
+                          },
+                          {
+                            "x": 0.532227,
+                            "y": 41.875
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -745,7 +1016,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "generic-enemy-attack-1.png",
+                      "image": "Sprites\\Foe 2\\Generic-Attack_1\\generic-enemy-attack-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -762,7 +1033,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "generic-enemy-attack-2.png",
+                      "image": "Sprites\\Foe 2\\Generic-Attack_1\\generic-enemy-attack-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -779,7 +1050,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "generic-enemy-attack-3.png",
+                      "image": "Sprites\\Foe 2\\Generic-Attack_1\\generic-enemy-attack-3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -796,7 +1067,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "generic-enemy-attack-4.png",
+                      "image": "Sprites\\Foe 2\\Generic-Attack_1\\generic-enemy-attack-4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -813,7 +1084,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "generic-enemy-attack-5.png",
+                      "image": "Sprites\\Foe 2\\Generic-Attack_1\\generic-enemy-attack-5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -842,7 +1113,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "generic-enemy-attack2-1.png",
+                      "image": "Sprites\\Foe 2\\Generic-Attack_2\\generic-enemy-attack2-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -859,7 +1130,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "generic-enemy-attack2-2.png",
+                      "image": "Sprites\\Foe 2\\Generic-Attack_2\\generic-enemy-attack2-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -876,7 +1147,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "generic-enemy-attack2-3.png",
+                      "image": "Sprites\\Foe 2\\Generic-Attack_2\\generic-enemy-attack2-3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -893,7 +1164,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "generic-enemy-attack2-4.png",
+                      "image": "Sprites\\Foe 2\\Generic-Attack_2\\generic-enemy-attack2-4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -910,7 +1181,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "generic-enemy-attack2-5.png",
+                      "image": "Sprites\\Foe 2\\Generic-Attack_2\\generic-enemy-attack2-5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -927,7 +1198,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "generic-enemy-attack2-6.png",
+                      "image": "Sprites\\Foe 2\\Generic-Attack_2\\generic-enemy-attack2-6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -956,7 +1227,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "generic-enemy-die-1.png",
+                      "image": "Sprites\\Foe 2\\Death\\generic-enemy-die-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -973,7 +1244,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "generic-enemy-die-2.png",
+                      "image": "Sprites\\Foe 2\\Death\\generic-enemy-die-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1000,7 +1271,24 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "acceleration": 1500,
+              "canGrabPlatforms": false,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "name": "PlatformerObject",
+              "roundCoordinates": true,
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
               "name": "Idle",
@@ -1319,13 +1607,21 @@
         },
         {
           "height": 32,
-          "name": "NewObject",
+          "name": "TestTexture",
           "tags": "",
           "texture": "NewFile-1.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
         }
       ],
       "events": [
@@ -1393,40 +1689,203 @@
                   "subInstructions": []
                 }
               ],
-              "events": [
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "PlatformBehavior::IsMoving"
-                      },
-                      "parameters": [
-                        "Zero",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "PlatformerObject"
                   ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SetAnimationName"
-                      },
-                      "parameters": [
-                        "Zero",
-                        "\"idle\""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
+                  "subInstructions": []
                 }
-              ]
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "\"Idle\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "Zero",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Right"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "Zero",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Swordman_movements",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "GenericSwordman",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "GenericSwordman",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "GenericSwordman",
+                    "\"Walk\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "GenericSwordman",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "GenericSwordman",
+                    "\"Idle\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ]
         }
@@ -1448,9 +1907,25 @@
             }
           ],
           "effects": []
+        },
+        {
+          "name": "Screen",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "Game",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
