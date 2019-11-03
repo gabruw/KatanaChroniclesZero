@@ -633,6 +633,15 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "Sprites/Assets/Killzone.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Assets\\Killzone.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "Sprites/Zero/Jump/Jump_01.png",
         "kind": "image",
         "metadata": "",
@@ -647,7 +656,7 @@
         "metadata": "",
         "name": "Sprites\\Zero\\Jump\\Jump_02.png",
         "smoothed": true,
-        "userAdded": true
+        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -665,7 +674,7 @@
         "metadata": "",
         "name": "Sprites\\Zero\\Jump\\Jump_04.png",
         "smoothed": true,
-        "userAdded": true
+        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -683,7 +692,7 @@
         "metadata": "",
         "name": "Sprites\\Zero\\Jump\\Jump_06.png",
         "smoothed": true,
-        "userAdded": true
+        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -692,7 +701,7 @@
         "metadata": "",
         "name": "Sprites\\Zero\\Jump\\Jump_07.png",
         "smoothed": true,
-        "userAdded": true
+        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -701,7 +710,7 @@
         "metadata": "",
         "name": "Sprites\\Zero\\Jump\\Jump_08.png",
         "smoothed": true,
-        "userAdded": false
+        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -719,7 +728,7 @@
         "metadata": "",
         "name": "Sprites\\Zero\\Jump\\Jump_10.png",
         "smoothed": true,
-        "userAdded": true
+        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -888,7 +897,7 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.0625,
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -1087,7 +1096,7 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.0588,
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -1302,7 +1311,7 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -1429,6 +1438,16 @@
           ]
         }
       ]
+    },
+    {
+      "height": 32,
+      "name": "KillZone",
+      "tags": "",
+      "texture": "Sprites\\Assets\\Killzone.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "behaviors": []
     }
   ],
   "objectsGroups": [],
@@ -1471,8 +1490,8 @@
           "locked": false,
           "name": "Zero",
           "width": 64,
-          "x": 385,
-          "y": 130,
+          "x": 416,
+          "y": 0,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1517,7 +1536,7 @@
           "name": "KillZone",
           "width": 160,
           "x": 224,
-          "y": 352,
+          "y": 384,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1525,34 +1544,6 @@
         }
       ],
       "objects": [
-        {
-          "height": 32,
-          "name": "TestTexture",
-          "tags": "",
-          "texture": "NewFile-1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "height": 32,
-          "name": "KillZone",
-          "tags": "",
-          "texture": "NewFile-1-0.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "behaviors": []
-        },
         {
           "name": "GenericSwordman",
           "tags": "",
@@ -2112,69 +2103,27 @@
               ]
             }
           ]
+        },
+        {
+          "height": 32,
+          "name": "TestTexture",
+          "tags": "",
+          "texture": "NewFile-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
         }
       ],
       "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "PlayerEvents"
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Kill_zone",
-          "comment2": ""
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Zero",
-                "KillZone",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "CurrentSceneName()",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
         {
           "disabled": false,
           "folded": false,
@@ -2274,6 +2223,15 @@
               "events": []
             }
           ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "GenericEvents"
         }
       ],
       "layers": [
@@ -2295,13 +2253,13 @@
           "effects": []
         },
         {
-          "name": "Game",
+          "name": "Screen",
           "visibility": true,
           "cameras": [],
           "effects": []
         },
         {
-          "name": "Screen",
+          "name": "Game",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -2323,8 +2281,59 @@
     {
       "associatedLayout": "Stage-01",
       "lastChangeTimeStamp": 0,
-      "name": "PlayerEvents",
+      "name": "GenericEvents",
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Kill_zone",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Zero",
+                "KillZone",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "CurrentSceneName()",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
         {
           "disabled": false,
           "folded": false,
@@ -2379,7 +2388,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Zero_movimentos",
+          "comment": "Zero_Moviments",
           "comment2": ""
         },
         {
@@ -2543,7 +2552,7 @@
               },
               "parameters": [
                 "",
-                "Right"
+                "Left"
               ],
               "subInstructions": []
             }
@@ -2556,7 +2565,7 @@
               },
               "parameters": [
                 "Zero",
-                "no"
+                "yes"
               ],
               "subInstructions": []
             }
@@ -2575,7 +2584,7 @@
               },
               "parameters": [
                 "",
-                "Left"
+                "Right"
               ],
               "subInstructions": []
             }
@@ -2588,7 +2597,7 @@
               },
               "parameters": [
                 "Zero",
-                "yes"
+                ""
               ],
               "subInstructions": []
             }
