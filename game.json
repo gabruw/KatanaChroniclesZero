@@ -639,6 +639,33 @@
         "name": "Sprites\\Assets\\Killzone.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Assets/Pointer.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Assets\\Pointer.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Assets/RightPointer.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Assets\\RightPointer.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Assets/LeftPointer.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Assets\\LeftPointer.jpg",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -993,6 +1020,84 @@
       "width": 32,
       "variables": [],
       "behaviors": []
+    },
+    {
+      "name": "RightPointer",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Assets\\RightPointer.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LeftPointer",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Assets\\LeftPointer.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [],
@@ -1022,9 +1127,18 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.288
+        "zoomFactor": 0.808
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "EnemyGroup",
+          "objects": [
+            {
+              "name": "GenericSwordman"
+            }
+          ]
+        }
+      ],
       "variables": [],
       "instances": [
         {
@@ -1035,7 +1149,7 @@
           "locked": false,
           "name": "Zero",
           "width": 64,
-          "x": 448,
+          "x": 0,
           "y": 128,
           "zOrder": 1,
           "numberProperties": [],
@@ -1049,8 +1163,8 @@
           "layer": "Game",
           "locked": false,
           "name": "TestTexture",
-          "width": 224,
-          "x": 0,
+          "width": 480,
+          "x": -256,
           "y": 192,
           "zOrder": 0,
           "numberProperties": [],
@@ -1064,7 +1178,7 @@
           "layer": "Game",
           "locked": false,
           "name": "TestTexture",
-          "width": 256,
+          "width": 576,
           "x": 384,
           "y": 192,
           "zOrder": 0,
@@ -1086,6 +1200,51 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "Game",
+          "locked": false,
+          "name": "GenericSwordman",
+          "width": 64,
+          "x": 640,
+          "y": 128,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Game",
+          "locked": false,
+          "name": "RightPointer",
+          "width": 0,
+          "x": 416,
+          "y": 128,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Game",
+          "locked": false,
+          "name": "LeftPointer",
+          "width": 0,
+          "x": 896,
+          "y": 128,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1094,16 +1253,21 @@
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Direction",
+              "value": "0"
+            }
+          ],
           "behaviors": [
             {
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "ignoreDefaultControls": true,
               "acceleration": 1500,
               "canGrabPlatforms": false,
               "deceleration": 1500,
               "gravity": 1000,
-              "ignoreDefaultControls": false,
               "jumpSpeed": 600,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
@@ -1777,6 +1941,15 @@
             "includeConfig": 0
           },
           "target": "GenericEvents"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "EnemyEvents"
         }
       ],
       "layers": [
@@ -1903,18 +2076,14 @@
             {
               "type": {
                 "inverted": false,
-                "value": "FixCamera"
+                "value": "CentreCamera"
               },
               "parameters": [
                 "",
                 "Zero",
-                "10",
+                "yes",
                 "\"Game\"",
-                "10",
-                "10",
-                "no",
-                "10",
-                ""
+                "10"
               ],
               "subInstructions": []
             }
@@ -2079,6 +2248,192 @@
               "parameters": [
                 "Zero",
                 ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "Stage-01",
+      "lastChangeTimeStamp": 0,
+      "name": "EnemyEvents",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Enemy_movements",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "EnemyGroup",
+                "RightPointer",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "EnemyGroup",
+                "Direction",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "EnemyGroup",
+                "LeftPointer",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "EnemyGroup",
+                "Direction",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "EnemyGroup",
+                "Direction",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::SimulateRightKey"
+              },
+              "parameters": [
+                "EnemyGroup",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "EnemyGroup",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "EnemyGroup",
+                "Direction",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::SimulateLeftKey"
+              },
+              "parameters": [
+                "EnemyGroup",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "EnemyGroup",
+                "no"
               ],
               "subInstructions": []
             }
