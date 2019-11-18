@@ -1549,7 +1549,7 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
+              "looping": false,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -2190,7 +2190,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.048
+        "zoomFactor": 1.264
       },
       "objectsGroups": [
         {
@@ -2213,7 +2213,7 @@
           "name": "Zero",
           "width": 64,
           "x": 0,
-          "y": -32,
+          "y": 224,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
