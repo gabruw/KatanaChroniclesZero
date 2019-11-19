@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.zero.chronicles.katana",
-    "projectFile": "C:\\Users\\mathe\\Documents\\GitHub\\KatanaChroniclesZero\\game.json",
+    "projectFile": "C:\\Users\\mathe\\Documents\\GitHub\\KatanaChroniclesZero\\game.json.autosave",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -871,6 +871,222 @@
         "name": "Sprites\\Zero\\Jump\\Jump_12.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/SabreAttack_01/SA_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\SabreAttack_01\\SA_01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/SabreAttack_01/SA_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\SabreAttack_01\\SA_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/SabreAttack_01/SA_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\SabreAttack_01\\SA_03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/SabreAttack_01/SA_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\SabreAttack_01\\SA_04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/SabreAttack_01/SA_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\SabreAttack_01\\SA_05.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/SabreAttack_01/SA_06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\SabreAttack_01\\SA_06.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/SabreAttack_01/SA_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\SabreAttack_01\\SA_07.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/SabreAttack_01/SA_08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\SabreAttack_01\\SA_08.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/Dash_attack/Dash_at_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\Dash_attack\\Dash_at_01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/Dash_attack/Dash_at_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\Dash_attack\\Dash_at_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/Dash_attack/Dash_at_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\Dash_attack\\Dash_at_03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/Dash_attack/Dash_at_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\Dash_attack\\Dash_at_04.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/Dash_attack/Dash_at_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\Dash_attack\\Dash_at_05.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/Dash_attack/Dash_at_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\Dash_attack\\Dash_at_07.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/Dash_attack/Dash_at_08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\Dash_attack\\Dash_at_08.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/Dash_attack/Dash_at_09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\Dash_attack\\Dash_at_09.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/Sabre_Attack_01/SA_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\Sabre_Attack_01\\SA_01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/Sabre_Attack_01/SA_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\Sabre_Attack_01\\SA_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/Sabre_Attack_01/SA_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\Sabre_Attack_01\\SA_03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/Sabre_Attack_01/SA_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\Sabre_Attack_01\\SA_04.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/Sabre_Attack_01/SA_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\Sabre_Attack_01\\SA_05.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/Sabre_Attack_01/SA_06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\Sabre_Attack_01\\SA_06.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/Sabre_Attack_01/SA_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\Sabre_Attack_01\\SA_07.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/Sabre_Attack_01/SA_08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\Sabre_Attack_01\\SA_08.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1431,30 +1647,13 @@
           ]
         },
         {
-          "name": "Fall",
+          "name": "Falling",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
               "timeBetweenFrames": 0.08,
               "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Sprites\\Zero\\Jump\\Jump_07.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Sprites\\Zero\\Jump\\Jump_08.png",
@@ -1492,40 +1691,6 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Sprites\\Zero\\Jump\\Jump_10.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Sprites\\Zero\\Jump\\Jump_11.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Sprites\\Zero\\Jump\\Jump_12.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1545,7 +1710,7 @@
           ]
         },
         {
-          "name": "Falling",
+          "name": "Dash_Attack",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1554,7 +1719,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Sprites\\Zero\\Jump\\Jump_08.png",
+                  "image": "Sprites\\Zero\\Dash_attack\\Dash_at_01.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1571,7 +1736,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Sprites\\Zero\\Jump\\Jump_09.png",
+                  "image": "Sprites\\Zero\\Dash_attack\\Dash_at_02.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1588,7 +1753,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Sprites\\Zero\\Jump\\Jump_10.png",
+                  "image": "Sprites\\Zero\\Dash_attack\\Dash_at_03.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1602,6 +1767,427 @@
                     "y": 0
                   },
                   "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\Dash_attack\\Dash_at_04.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\Dash_attack\\Dash_at_05.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\Dash_attack\\Dash_at_07.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\Dash_attack\\Dash_at_08.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\Dash_attack\\Dash_at_09.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sabre_Attack_01",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Sprites\\Zero\\Sabre_Attack_01\\SA_01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5352,
+                        "y": 18.75
+                      },
+                      {
+                        "x": 35.4102,
+                        "y": 4.375
+                      },
+                      {
+                        "x": 37.2852,
+                        "y": 41.875
+                      },
+                      {
+                        "x": 5.72266,
+                        "y": 43.4375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Sprites\\Zero\\Sabre_Attack_01\\SA_02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 57.9102,
+                        "y": 6.5625
+                      },
+                      {
+                        "x": 72.5977,
+                        "y": 20.625
+                      },
+                      {
+                        "x": 67.9102,
+                        "y": 28.75
+                      },
+                      {
+                        "x": 33.8477,
+                        "y": 43.4375
+                      },
+                      {
+                        "x": 6.34766,
+                        "y": 43.75
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Sprites\\Zero\\Sabre_Attack_01\\SA_03.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 59.7852,
+                        "y": 6.5625
+                      },
+                      {
+                        "x": 72.2852,
+                        "y": 18.125
+                      },
+                      {
+                        "x": 71.6602,
+                        "y": 25.9375
+                      },
+                      {
+                        "x": 30.4102,
+                        "y": 42.8125
+                      },
+                      {
+                        "x": 6.66016,
+                        "y": 43.4375
+                      },
+                      {
+                        "x": 1.97266,
+                        "y": 0.625
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Sprites\\Zero\\Sabre_Attack_01\\SA_04.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1.66016,
+                        "y": 1.5625
+                      },
+                      {
+                        "x": 55.7227,
+                        "y": 5.625
+                      },
+                      {
+                        "x": 34.4727,
+                        "y": 42.8125
+                      },
+                      {
+                        "x": 5.41016,
+                        "y": 43.4375
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Sprites\\Zero\\Sabre_Attack_01\\SA_05.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41.6602,
+                        "y": 14.0625
+                      },
+                      {
+                        "x": 44.7852,
+                        "y": 34.0625
+                      },
+                      {
+                        "x": 37.5977,
+                        "y": 43.125
+                      },
+                      {
+                        "x": 5.41016,
+                        "y": 43.4375
+                      },
+                      {
+                        "x": 1.03516,
+                        "y": 0.3125
+                      },
+                      {
+                        "x": 36.3477,
+                        "y": 6.875
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Sprites\\Zero\\Sabre_Attack_01\\SA_06.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 39.7852,
+                        "y": 9.375
+                      },
+                      {
+                        "x": 45.4102,
+                        "y": 33.125
+                      },
+                      {
+                        "x": 36.0352,
+                        "y": 42.1875
+                      },
+                      {
+                        "x": 5.41016,
+                        "y": 43.4375
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Sprites\\Zero\\Sabre_Attack_01\\SA_07.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28.8477,
+                        "y": 3.125
+                      },
+                      {
+                        "x": 38.8477,
+                        "y": 12.8125
+                      },
+                      {
+                        "x": 37.2852,
+                        "y": 41.5625
+                      },
+                      {
+                        "x": 5.41016,
+                        "y": 43.4375
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Sprites\\Zero\\Sabre_Attack_01\\SA_08.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28.2227,
+                        "y": 4.0625
+                      },
+                      {
+                        "x": 35.7227,
+                        "y": 12.1875
+                      },
+                      {
+                        "x": 36.0352,
+                        "y": 43.4375
+                      },
+                      {
+                        "x": 5.41016,
+                        "y": 43.4375
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -2180,7 +2766,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 32,
@@ -2188,9 +2774,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 32,
-        "snap": true,
+        "snap": false,
         "windowMask": false,
-        "zoomFactor": 1.048
+        "zoomFactor": 1.264
       },
       "objectsGroups": [
         {
@@ -2212,8 +2798,8 @@
           "locked": false,
           "name": "Zero",
           "width": 64,
-          "x": 0,
-          "y": -32,
+          "x": 2,
+          "y": 225,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -3539,17 +4125,6 @@
               },
               "parameters": [
                 "Zero",
-                "\"Fall\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "Zero",
                 "\"Falling\""
               ],
               "subInstructions": []
@@ -3615,6 +4190,54 @@
               "parameters": [
                 "Zero",
                 ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Zero_Attacks",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "c"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Zero",
+                "=",
+                "5"
               ],
               "subInstructions": []
             }
