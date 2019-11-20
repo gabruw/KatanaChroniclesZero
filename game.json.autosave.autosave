@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.zero.chronicles.katana",
-    "projectFile": "C:\\Users\\mathe\\Documents\\GitHub\\KatanaChroniclesZero\\game.json.autosave",
+    "projectFile": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\KatanaChroniclesZero\\game.json.autosave",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -2471,8 +2471,8 @@
           "locked": false,
           "name": "Background",
           "width": 0,
-          "x": -1,
-          "y": 62,
+          "x": 0,
+          "y": 349,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -2501,8 +2501,8 @@
           "locked": false,
           "name": "UpPointer",
           "width": 0,
-          "x": 608,
-          "y": 603,
+          "x": 355,
+          "y": 1696,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -2556,20 +2556,20 @@
           "variables": [],
           "behaviors": [
             {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGrabPlatforms": false,
               "deceleration": 1500,
-              "gravity": 0,
-              "ignoreDefaultControls": true,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
               "jumpSpeed": 600,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "roundCoordinates": false,
+              "name": "PlatformerObject",
+              "roundCoordinates": true,
               "slopeMaxAngle": 60,
-              "xGrabTolerance": 0,
-              "yGrabOffset": -1
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
             }
           ],
           "animations": [
@@ -4618,7 +4618,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PlatformBehavior::SimulateUpKey"
+                "value": "PlatformBehavior::SimulateJumpKey"
               },
               "parameters": [
                 "EnemyGroup",
