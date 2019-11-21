@@ -1123,6 +1123,13 @@
         "name": "Sprites\\Assets\\StopPointer-2-1-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "Songs/Menu/Background.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Songs\\Menu\\Background.mp3",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2464,7 +2471,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.952
+        "zoomFactor": 0.424
       },
       "objectsGroups": [],
       "variables": [],
@@ -2592,10 +2599,10 @@
           "variables": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -2855,7 +2862,7 @@
               "parameters": [
                 "Background",
                 "0",
-                "-100",
+                "-46.5",
                 "1"
               ],
               "subInstructions": []
@@ -2891,6 +2898,40 @@
               },
               "parameters": [
                 "Background"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Songs\\Menu\\Background.mp3",
+                "",
+                "",
+                ""
               ],
               "subInstructions": []
             }
