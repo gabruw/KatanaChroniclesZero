@@ -2648,41 +2648,11 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.6
+        "zoomFactor": 1.048
       },
       "objectsGroups": [],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "StartGame",
-          "width": 0,
-          "x": 241,
-          "y": 231,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Exit",
-          "width": 0,
-          "x": 285,
-          "y": 285,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -3184,46 +3154,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "StartGame"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "Exit"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -3250,22 +3180,28 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Montre"
+                "value": "Create"
               },
               "parameters": [
+                "",
                 "StartGame",
-                ""
+                "241",
+                "231",
+                "\"\""
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "Montre"
+                "value": "Create"
               },
               "parameters": [
+                "",
                 "Exit",
-                ""
+                "285",
+                "285",
+                "\"\""
               ],
               "subInstructions": []
             }
