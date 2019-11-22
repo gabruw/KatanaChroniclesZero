@@ -2648,7 +2648,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.048
+        "zoomFactor": 0.688
       },
       "objectsGroups": [],
       "variables": [],
@@ -3302,7 +3302,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.64
+        "zoomFactor": 0.592
       },
       "objectsGroups": [
         {
@@ -3327,21 +3327,6 @@
           "x": 0,
           "y": 224,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "Game",
-          "locked": false,
-          "name": "TestTexture",
-          "width": 288,
-          "x": -256,
-          "y": 288,
-          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3395,7 +3380,7 @@
           "angle": 0,
           "customSize": true,
           "height": 672,
-          "layer": "Background",
+          "layer": "Background-6",
           "locked": false,
           "name": "Sky",
           "width": 1664,
@@ -3409,83 +3394,8 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 608,
-          "layer": "Background",
-          "locked": false,
-          "name": "Ruins",
-          "width": 1664,
-          "x": -480,
-          "y": -64,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 640,
-          "layer": "Background",
-          "locked": false,
-          "name": "House2",
-          "width": 1664,
-          "x": -480,
-          "y": -64,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 608,
-          "layer": "Background",
-          "locked": false,
-          "name": "House3",
-          "width": 1664,
-          "x": -480,
-          "y": -64,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 608,
-          "layer": "Background",
-          "locked": false,
-          "name": "House1",
-          "width": 1664,
-          "x": -480,
-          "y": -64,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 576,
-          "layer": "Background",
-          "locked": false,
-          "name": "Fence",
-          "width": 1664,
-          "x": -480,
-          "y": -64,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 576,
-          "layer": "Background",
+          "layer": "Background-1",
           "locked": false,
           "name": "Comp",
           "width": 1664,
@@ -3504,7 +3414,7 @@
           "locked": false,
           "name": "TestTexture",
           "width": 288,
-          "x": 32,
+          "x": -32,
           "y": 288,
           "zOrder": 0,
           "numberProperties": [],
@@ -3519,7 +3429,7 @@
           "locked": false,
           "name": "TestTexture",
           "width": 288,
-          "x": 320,
+          "x": 256,
           "y": 288,
           "zOrder": 0,
           "numberProperties": [],
@@ -3534,7 +3444,7 @@
           "locked": false,
           "name": "TestTexture",
           "width": 288,
-          "x": 608,
+          "x": 544,
           "y": 288,
           "zOrder": 0,
           "numberProperties": [],
@@ -3549,9 +3459,114 @@
           "locked": false,
           "name": "TestTexture",
           "width": 288,
-          "x": 896,
+          "x": 832,
           "y": 288,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 352,
+          "layer": "",
+          "locked": false,
+          "name": "BlackPointer",
+          "width": 32,
+          "x": -32,
+          "y": -64,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "Game",
+          "locked": false,
+          "name": "TestTexture",
+          "width": 288,
+          "x": 1120,
+          "y": 288,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 384,
+          "layer": "Background-5",
+          "locked": false,
+          "name": "Ruins",
+          "width": 1664,
+          "x": -480,
+          "y": -64,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 352,
+          "layer": "Background-4",
+          "locked": false,
+          "name": "House3",
+          "width": 1664,
+          "x": -480,
+          "y": -64,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 352,
+          "layer": "Background-3",
+          "locked": false,
+          "name": "House2",
+          "width": 1664,
+          "x": -480,
+          "y": -64,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 352,
+          "layer": "Background-2",
+          "locked": false,
+          "name": "House1",
+          "width": 1664,
+          "x": -480,
+          "y": -64,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 352,
+          "layer": "Background-1",
+          "locked": false,
+          "name": "Fence",
+          "width": 1664,
+          "x": -480,
+          "y": -64,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4210,6 +4225,24 @@
           "width": 32,
           "variables": [],
           "behaviors": []
+        },
+        {
+          "height": 32,
+          "name": "BlackPointer",
+          "tags": "",
+          "texture": "Sprites\\Assets\\BlackPointer.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
         }
       ],
       "events": [
@@ -4334,7 +4367,37 @@
       ],
       "layers": [
         {
-          "name": "Background",
+          "name": "Background-6",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "Background-5",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "Background-4",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "Background-3",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "Background-2",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "Background-1",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -4486,7 +4549,63 @@
                 "",
                 "=",
                 "Zero.X()*0.1",
-                "\"Background\"",
+                "\"Background-1\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Zero.X()*0.2",
+                "\"Background-2\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Zero.X()*0.3",
+                "\"Background-3\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Zero.X()*0.2",
+                "\"Background-4\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Zero.X()*0.3",
+                "\"Background-5\"",
                 ""
               ],
               "subInstructions": []
