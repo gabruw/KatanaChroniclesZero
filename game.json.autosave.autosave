@@ -1238,6 +1238,15 @@
         "name": "Sprites\\Assets\\BlackPointer.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Stage 1/Ground/rock-ground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Stage 1\\Ground\\rock-ground.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3302,7 +3311,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.88
+        "zoomFactor": 0.448
       },
       "objectsGroups": [
         {
@@ -3409,57 +3418,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
+          "height": 160,
           "layer": "Game",
           "locked": false,
           "name": "TestTexture",
-          "width": 288,
+          "width": 4224,
           "x": -32,
-          "y": 288,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "Game",
-          "locked": false,
-          "name": "TestTexture",
-          "width": 288,
-          "x": 256,
-          "y": 288,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "Game",
-          "locked": false,
-          "name": "TestTexture",
-          "width": 288,
-          "x": 544,
-          "y": 288,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "Game",
-          "locked": false,
-          "name": "TestTexture",
-          "width": 288,
-          "x": 832,
           "y": 288,
           "zOrder": 0,
           "numberProperties": [],
@@ -3477,21 +3441,6 @@
           "x": -32,
           "y": -64,
           "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "Game",
-          "locked": false,
-          "name": "TestTexture",
-          "width": 288,
-          "x": 1120,
-          "y": 288,
-          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3567,6 +3516,21 @@
           "x": -480,
           "y": -64,
           "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 352,
+          "layer": "",
+          "locked": false,
+          "name": "BlackPointer",
+          "width": 32,
+          "x": 4160,
+          "y": -64,
+          "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4142,7 +4106,7 @@
           "height": 32,
           "name": "TestTexture",
           "tags": "",
-          "texture": "Sprites\\Stage 1\\Ground\\rock-ground.jpg",
+          "texture": "Sprites\\Stage 1\\Ground\\rock-ground.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
