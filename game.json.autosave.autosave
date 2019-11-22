@@ -1090,6 +1090,105 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "Sprites/Zero/Damaged/dmg_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\Damaged\\dmg_01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/Damaged/dmg_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\Damaged\\dmg_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/Damaged/dmg_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\Damaged\\dmg_03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/Damaged/DEATH_HIT(dmg_04).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\Damaged\\DEATH_HIT(dmg_04).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/LowHealth_idle/lh_idle_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\LowHealth_idle\\lh_idle_01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/LowHealth_idle/lh_idle_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\LowHealth_idle\\lh_idle_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/LowHealth_idle/lh_idle_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\LowHealth_idle\\lh_idle_03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/LowHealth_idle/lh_idle_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\LowHealth_idle\\lh_idle_04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/LowHealth_idle/lh_idle_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\LowHealth_idle\\lh_idle_05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/LowHealth_idle/lh_idle_06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\LowHealth_idle\\lh_idle_06.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Assets/StopPointer-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Assets\\StopPointer-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "Sprites/Assets/UpPointerAlter.jpg",
         "kind": "image",
         "metadata": "",
@@ -1099,28 +1198,19 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "StopPointer-2-1.png",
+        "file": "Sprites/Assets/LeftPointerAlter.jpg",
         "kind": "image",
         "metadata": "",
-        "name": "StopPointer-2-1.png",
+        "name": "Sprites\\Assets\\LeftPointerAlter.jpg",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "Sprites/Assets/StopPointer-2-1.png",
+        "file": "Sprites/Assets/RightPointerAlter.jpg",
         "kind": "image",
         "metadata": "",
-        "name": "Sprites\\Assets\\StopPointer-2-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Sprites/Assets/StopPointer-2-1-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Sprites\\Assets\\StopPointer-2-1-1.png",
+        "name": "Sprites\\Assets\\RightPointerAlter.jpg",
         "smoothed": true,
         "userAdded": true
       },
@@ -1129,6 +1219,24 @@
         "kind": "audio",
         "metadata": "",
         "name": "Songs\\Menu\\Background.mp3",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BlackPointer-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BlackPointer-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Assets/BlackPointer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Assets\\BlackPointer.png",
+        "smoothed": true,
         "userAdded": true
       }
     ],
@@ -1145,8 +1253,8 @@
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "canGrabPlatforms": true,
           "acceleration": 1500,
-          "canGrabPlatforms": false,
           "deceleration": 1500,
           "gravity": 1000,
           "ignoreDefaultControls": false,
@@ -1694,7 +1802,7 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -1758,7 +1866,7 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.0769,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -1905,11 +2013,11 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "timeBetweenFrames": 0.0769,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "Sprites\\Zero\\Sabre_Attack_01\\SA_01.png",
                   "points": [],
                   "originPoint": {
@@ -1923,29 +2031,10 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13.5352,
-                        "y": 18.75
-                      },
-                      {
-                        "x": 35.4102,
-                        "y": 4.375
-                      },
-                      {
-                        "x": 37.2852,
-                        "y": 41.875
-                      },
-                      {
-                        "x": 5.72266,
-                        "y": 43.4375
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "Sprites\\Zero\\Sabre_Attack_01\\SA_02.png",
                   "points": [],
                   "originPoint": {
@@ -1959,37 +2048,10 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 57.9102,
-                        "y": 6.5625
-                      },
-                      {
-                        "x": 72.5977,
-                        "y": 20.625
-                      },
-                      {
-                        "x": 67.9102,
-                        "y": 28.75
-                      },
-                      {
-                        "x": 33.8477,
-                        "y": 43.4375
-                      },
-                      {
-                        "x": 6.34766,
-                        "y": 43.75
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "Sprites\\Zero\\Sabre_Attack_01\\SA_03.png",
                   "points": [],
                   "originPoint": {
@@ -2003,37 +2065,10 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 59.7852,
-                        "y": 6.5625
-                      },
-                      {
-                        "x": 72.2852,
-                        "y": 18.125
-                      },
-                      {
-                        "x": 71.6602,
-                        "y": 25.9375
-                      },
-                      {
-                        "x": 30.4102,
-                        "y": 42.8125
-                      },
-                      {
-                        "x": 6.66016,
-                        "y": 43.4375
-                      },
-                      {
-                        "x": 1.97266,
-                        "y": 0.625
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "Sprites\\Zero\\Sabre_Attack_01\\SA_04.png",
                   "points": [],
                   "originPoint": {
@@ -2047,29 +2082,10 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1.66016,
-                        "y": 1.5625
-                      },
-                      {
-                        "x": 55.7227,
-                        "y": 5.625
-                      },
-                      {
-                        "x": 34.4727,
-                        "y": 42.8125
-                      },
-                      {
-                        "x": 5.41016,
-                        "y": 43.4375
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "Sprites\\Zero\\Sabre_Attack_01\\SA_05.png",
                   "points": [],
                   "originPoint": {
@@ -2083,37 +2099,10 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 41.6602,
-                        "y": 14.0625
-                      },
-                      {
-                        "x": 44.7852,
-                        "y": 34.0625
-                      },
-                      {
-                        "x": 37.5977,
-                        "y": 43.125
-                      },
-                      {
-                        "x": 5.41016,
-                        "y": 43.4375
-                      },
-                      {
-                        "x": 1.03516,
-                        "y": 0.3125
-                      },
-                      {
-                        "x": 36.3477,
-                        "y": 6.875
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "Sprites\\Zero\\Sabre_Attack_01\\SA_06.png",
                   "points": [],
                   "originPoint": {
@@ -2127,33 +2116,10 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 39.7852,
-                        "y": 9.375
-                      },
-                      {
-                        "x": 45.4102,
-                        "y": 33.125
-                      },
-                      {
-                        "x": 36.0352,
-                        "y": 42.1875
-                      },
-                      {
-                        "x": 5.41016,
-                        "y": 43.4375
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "Sprites\\Zero\\Sabre_Attack_01\\SA_07.png",
                   "points": [],
                   "originPoint": {
@@ -2167,33 +2133,10 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 28.8477,
-                        "y": 3.125
-                      },
-                      {
-                        "x": 38.8477,
-                        "y": 12.8125
-                      },
-                      {
-                        "x": 37.2852,
-                        "y": 41.5625
-                      },
-                      {
-                        "x": 5.41016,
-                        "y": 43.4375
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "Sprites\\Zero\\Sabre_Attack_01\\SA_08.png",
                   "points": [],
                   "originPoint": {
@@ -2207,30 +2150,264 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 28.2227,
-                        "y": 4.0625
-                      },
-                      {
-                        "x": 35.7227,
-                        "y": 12.1875
-                      },
-                      {
-                        "x": 36.0352,
-                        "y": 43.4375
-                      },
-                      {
-                        "x": 5.41016,
-                        "y": 43.4375
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hit",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.0833,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\Damaged\\dmg_01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\Damaged\\dmg_02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\Damaged\\dmg_03.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hit_death",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\Damaged\\dmg_01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\Damaged\\dmg_02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\Damaged\\dmg_03.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\Damaged\\DEATH_HIT(dmg_04).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Low_health_idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1667,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\LowHealth_idle\\lh_idle_01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\LowHealth_idle\\lh_idle_02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\LowHealth_idle\\lh_idle_03.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\LowHealth_idle\\lh_idle_04.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\LowHealth_idle\\lh_idle_05.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\LowHealth_idle\\lh_idle_06.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -2471,7 +2648,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.952
+        "zoomFactor": 1.408
       },
       "objectsGroups": [],
       "variables": [],
@@ -2486,7 +2663,7 @@
           "width": 0,
           "x": 241,
           "y": 231,
-          "zOrder": 1,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2515,23 +2692,8 @@
           "name": "Background",
           "width": 0,
           "x": 0,
-          "y": 1,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "TitleImage",
-          "locked": false,
-          "name": "UpPointerAlter",
-          "width": 0,
-          "x": 607,
-          "y": 1311,
-          "zOrder": 0,
+          "y": 428,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2544,9 +2706,39 @@
           "locked": false,
           "name": "StopPointerAlter",
           "width": 0,
-          "x": 573,
-          "y": -916,
+          "x": 576,
+          "y": -914,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "UpPointerAlter",
+          "width": 0,
+          "x": 608,
+          "y": 1669,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 371,
+          "layer": "TitleImage",
+          "locked": false,
+          "name": "BlackPointer",
+          "width": 651,
+          "x": -4,
+          "y": -2,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2599,11 +2791,20 @@
           "variables": [],
           "behaviors": [
             {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 1500,
+              "canGrabPlatforms": false,
+              "deceleration": 1500,
+              "gravity": 0,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 600,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "roundCoordinates": false,
+              "slopeMaxAngle": 60,
+              "xGrabTolerance": 0,
+              "yGrabOffset": -1
             }
           ],
           "animations": [
@@ -2618,6 +2819,45 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Sprites\\Menu\\Title-Screen.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "StopPointerAlter",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\Assets\\StopPointer-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2678,7 +2918,7 @@
           ]
         },
         {
-          "name": "StopPointerAlter",
+          "name": "LeftPointerAlter",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -2686,7 +2926,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "StopPointer-2-1",
+              "name": "Idle",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -2695,7 +2935,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Sprites\\Assets\\StopPointer-2-1-1.png",
+                      "image": "Sprites\\Assets\\LeftPointerAlter.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2715,6 +2955,55 @@
               ]
             }
           ]
+        },
+        {
+          "name": "RightPointerAlter",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\Assets\\RightPointerAlter.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "BlackPointer",
+          "tags": "",
+          "texture": "Sprites\\Assets\\BlackPointer.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -2826,18 +3115,29 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Sound",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
                 "inverted": false,
-                "value": "CollisionNP"
+                "value": "DepartScene"
               },
               "parameters": [
-                "UpPointerAlter",
-                "Background",
-                "",
-                "",
                 ""
               ],
               "subInstructions": []
@@ -2847,28 +3147,34 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Arreter"
+                "value": "PlaySound"
               },
               "parameters": [
-                "Background"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceXY"
-              },
-              "parameters": [
-                "Background",
-                "0",
-                "-46.5",
-                "1"
+                "",
+                "Songs\\Menu\\Background.mp3",
+                "yes",
+                "",
+                ""
               ],
               "subInstructions": []
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Slide",
+          "comment2": ""
         },
         {
           "disabled": false,
@@ -2912,9 +3218,13 @@
             {
               "type": {
                 "inverted": false,
-                "value": "DepartScene"
+                "value": "CollisionNP"
               },
               "parameters": [
+                "UpPointerAlter",
+                "Background",
+                "",
+                "",
                 ""
               ],
               "subInstructions": []
@@ -2924,14 +3234,13 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PlaySound"
+                "value": "AddForceXY"
               },
               "parameters": [
-                "",
-                "Songs\\Menu\\Background.mp3",
-                "",
-                "",
-                ""
+                "Background",
+                "0",
+                "-0.482",
+                "1"
               ],
               "subInstructions": []
             }
@@ -2966,10 +3275,6 @@
       ],
       "behaviorsSharedData": [
         {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior"
-        },
-        {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         }
@@ -2989,7 +3294,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 32,
@@ -2997,9 +3302,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 32,
-        "snap": false,
+        "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.264
+        "zoomFactor": 0.64
       },
       "objectsGroups": [
         {
@@ -3021,8 +3326,8 @@
           "locked": false,
           "name": "Zero",
           "width": 64,
-          "x": 2,
-          "y": 225,
+          "x": 0,
+          "y": 224,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -4431,7 +4736,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Zero_Attacks",
+          "comment": "Attacks\n",
           "comment2": ""
         },
         {
@@ -4442,30 +4747,50 @@
             {
               "type": {
                 "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "c"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
+                "value": "PlatformBehavior::IsOnFloor"
               },
               "parameters": [
                 "Zero",
-                "=",
-                "5"
+                "PlatformerObject"
               ],
               "subInstructions": []
             }
           ],
-          "events": []
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "c"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "\"Sabre_Attack_01\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         }
       ]
     },
@@ -4841,7 +5166,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PlatformBehavior::SimulateJumpKey"
+                "value": "PlatformBehavior::SimulateUpKey"
               },
               "parameters": [
                 "EnemyGroup",
