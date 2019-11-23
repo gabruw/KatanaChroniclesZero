@@ -3311,7 +3311,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.448
+        "zoomFactor": 1.264
       },
       "objectsGroups": [
         {
@@ -3323,7 +3323,16 @@
           ]
         }
       ],
-      "variables": [],
+      "variables": [
+        {
+          "name": "IntersectX",
+          "value": ""
+        },
+        {
+          "name": "IntersectY",
+          "value": ""
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -5476,6 +5485,54 @@
                   "parameters": [
                     "GenericSwordman",
                     "\"Idle\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Raycast"
+                  },
+                  "parameters": [
+                    "GenericSwordman",
+                    "GenericSwordman.X()+20",
+                    "GenericSwordman.Y()",
+                    "GenericSwordman.Direction()",
+                    "15",
+                    "IntersectX",
+                    "IntersectY",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Arreter"
+                  },
+                  "parameters": [
+                    "GenericSwordman"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "GenericSwordman",
+                    "\"Simple-Attack\""
                   ],
                   "subInstructions": []
                 }
