@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.zero.chronicles.katana",
-    "projectFile": "C:\\Users\\mathe\\Documents\\GitHub\\KatanaChroniclesZero\\game.json.autosave",
+    "projectFile": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\KatanaChroniclesZero\\game.json.autosave",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -1273,6 +1273,14 @@
         {
           "name": "zeroMovendo",
           "value": "0"
+        },
+        {
+          "name": "zeroColisaoWallLeft",
+          "value": "0"
+        },
+        {
+          "name": "zeroColisaoWallRight",
+          "value": "0"
         }
       ],
       "behaviors": [
@@ -1308,8 +1316,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 37.694,
+                    "y": 18.2759
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1325,8 +1333,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 37.694,
+                    "y": 18.2759
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1342,8 +1350,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 37.694,
+                    "y": 18.2759
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1359,8 +1367,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 37.694,
+                    "y": 18.2759
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1376,8 +1384,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 37.694,
+                    "y": 18.2759
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1393,8 +1401,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 37.694,
+                    "y": 18.2759
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3328,7 +3336,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.264
+        "zoomFactor": 1.144
       },
       "objectsGroups": [
         {
@@ -3452,21 +3460,6 @@
           "x": -32,
           "y": 288,
           "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 160,
-          "layer": "",
-          "locked": false,
-          "name": "BlackPointer",
-          "width": 32,
-          "x": 224,
-          "y": 128,
-          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4849,7 +4842,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Attacks",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5483,6 +5476,55 @@
               "parameters": [
                 "EnemyGroup",
                 "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Enemy_mechanics",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Zero",
+                "EnemyGroup",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "GenericSwordman"
               ],
               "subInstructions": []
             }
