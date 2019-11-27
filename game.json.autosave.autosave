@@ -1247,6 +1247,15 @@
         "name": "Sprites\\Stage 1\\Ground\\rock-ground.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/GameOver/Background.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\GameOver\\Background.jpg",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1316,8 +1325,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 37.694,
-                    "y": 18.2759
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1333,8 +1342,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 37.694,
-                    "y": 18.2759
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1350,8 +1359,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 37.694,
-                    "y": 18.2759
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1367,8 +1376,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 37.694,
-                    "y": 18.2759
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1384,8 +1393,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 37.694,
-                    "y": 18.2759
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1401,8 +1410,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 37.694,
-                    "y": 18.2759
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3219,8 +3228,8 @@
               "parameters": [
                 "",
                 "StartGame",
-                "241",
-                "231",
+                "255",
+                "240",
                 "\"\""
               ],
               "subInstructions": []
@@ -3233,7 +3242,7 @@
               "parameters": [
                 "",
                 "Exit",
-                "285",
+                "305",
                 "285",
                 "\"\""
               ],
@@ -3367,7 +3376,7 @@
           "locked": false,
           "name": "Zero",
           "width": 64,
-          "x": 0,
+          "x": 32,
           "y": 224,
           "zOrder": 1,
           "numberProperties": [],
@@ -3455,7 +3464,7 @@
           "height": 160,
           "layer": "Game",
           "locked": false,
-          "name": "TestTexture",
+          "name": "Ground",
           "width": 4224,
           "x": -32,
           "y": 288,
@@ -4138,7 +4147,7 @@
         },
         {
           "height": 32,
-          "name": "TestTexture",
+          "name": "Ground",
           "tags": "",
           "texture": "Sprites\\Stage 1\\Ground\\rock-ground.png",
           "type": "TiledSpriteObject::TiledSprite",
@@ -4340,6 +4349,251 @@
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         }
       ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "GameOver",
+      "name": "GameOver",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": true,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 1.024
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Background",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "ReturnToMenu",
+          "width": 224,
+          "x": 192,
+          "y": 256,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Continue",
+          "width": 128,
+          "x": 224,
+          "y": 206,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "height": 360,
+          "name": "Background",
+          "tags": "",
+          "texture": "Sprites\\GameOver\\Background.jpg",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 640,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "ReturnToMenu",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Return to Menu",
+          "font": "Silver.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Continue",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Continue",
+          "font": "Silver.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Continue",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Stage-01\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ReturnToMenu",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        }
+      ]
     }
   ],
   "externalEvents": [
@@ -4391,7 +4645,7 @@
               },
               "parameters": [
                 "",
-                "CurrentSceneName()",
+                "\"GameOver\"",
                 ""
               ],
               "subInstructions": []
