@@ -1256,6 +1256,15 @@
         "name": "Sprites\\GameOver\\Background.jpg",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Game Utils/life-bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Game Utils\\life-bar.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3335,7 +3344,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 32,
@@ -3343,9 +3352,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 32,
-        "snap": true,
+        "snap": false,
         "windowMask": false,
-        "zoomFactor": 1.144
+        "zoomFactor": 1.24
       },
       "objectsGroups": [
         {
@@ -3574,6 +3583,21 @@
           "x": -32,
           "y": -64,
           "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Game Utils",
+          "locked": false,
+          "name": "Lifebar",
+          "width": 0,
+          "x": 11,
+          "y": 12,
+          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4250,6 +4274,16 @@
               "yGrabOffset": 0
             }
           ]
+        },
+        {
+          "height": 148,
+          "name": "Lifebar",
+          "tags": "",
+          "texture": "Sprites\\Game Utils\\life-bar.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 35,
+          "variables": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -4334,6 +4368,12 @@
         },
         {
           "name": "Game",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "Game Utils",
           "visibility": true,
           "cameras": [],
           "effects": []
