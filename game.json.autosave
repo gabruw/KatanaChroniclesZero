@@ -1274,6 +1274,24 @@
         "name": "Sprites\\Game Utils\\count-lifes-bar.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Stage 1/Plataform/double.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Stage 1\\Plataform\\double.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Stage 1/Plataform/mono.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Stage 1\\Plataform\\mono.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3357,7 +3375,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 32,
@@ -3365,9 +3383,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 32,
-        "snap": false,
+        "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.528
+        "zoomFactor": 0.88
       },
       "objectsGroups": [
         {
@@ -3457,7 +3475,7 @@
           "layer": "Background-6",
           "locked": false,
           "name": "Sky",
-          "width": 1664,
+          "width": 5888,
           "x": -480,
           "y": -64,
           "zOrder": 0,
@@ -3472,7 +3490,7 @@
           "layer": "Background-1",
           "locked": false,
           "name": "Comp",
-          "width": 1664,
+          "width": 5888,
           "x": -480,
           "y": 288,
           "zOrder": 10,
@@ -3487,7 +3505,7 @@
           "layer": "Game",
           "locked": false,
           "name": "Ground",
-          "width": 4224,
+          "width": 5000,
           "x": -32,
           "y": 288,
           "zOrder": 0,
@@ -3502,7 +3520,7 @@
           "layer": "Background-5",
           "locked": false,
           "name": "Ruins",
-          "width": 1664,
+          "width": 5888,
           "x": -480,
           "y": -64,
           "zOrder": 12,
@@ -3517,7 +3535,7 @@
           "layer": "Background-4",
           "locked": false,
           "name": "House3",
-          "width": 1664,
+          "width": 5888,
           "x": -480,
           "y": -64,
           "zOrder": 13,
@@ -3532,7 +3550,7 @@
           "layer": "Background-3",
           "locked": false,
           "name": "House2",
-          "width": 1664,
+          "width": 5888,
           "x": -480,
           "y": -64,
           "zOrder": 14,
@@ -3547,7 +3565,7 @@
           "layer": "Background-2",
           "locked": false,
           "name": "House1",
-          "width": 1664,
+          "width": 5888,
           "x": -480,
           "y": -64,
           "zOrder": 15,
@@ -3562,7 +3580,7 @@
           "layer": "Background-1",
           "locked": false,
           "name": "Fence",
-          "width": 1664,
+          "width": 5888,
           "x": -480,
           "y": -64,
           "zOrder": 16,
@@ -3578,7 +3596,7 @@
           "locked": false,
           "name": "BlackPointer",
           "width": 32,
-          "x": 4160,
+          "x": 4928,
           "y": -64,
           "zOrder": 17,
           "numberProperties": [],
@@ -4326,6 +4344,42 @@
           "width": 20,
           "variables": [],
           "behaviors": []
+        },
+        {
+          "height": 32,
+          "name": "DoublePlataform",
+          "tags": "",
+          "texture": "Sprites\\Stage 1\\Plataform\\double.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "Jumpthru",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "MonoPlataform",
+          "tags": "",
+          "texture": "Sprites\\Stage 1\\Plataform\\mono.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "Jumpthru",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
         }
       ],
       "events": [
@@ -4766,7 +4820,7 @@
                 "Zero",
                 "0",
                 "0",
-                "min(3000, max(Zero.X(), 3000))",
+                "min(4900, max(Zero.X(), 4900))",
                 "min(720, max(Zero.Y(), 720))",
                 "no",
                 "\"Game\"",
