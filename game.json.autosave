@@ -1292,6 +1292,15 @@
         "name": "Sprites\\Stage 1\\Plataform\\mono.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Stage 1/Ground/green-metal-ground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Stage 1\\Ground\\green-metal-ground.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2245,7 +2254,7 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.5,
+              "timeBetweenFrames": 0.125,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -3385,7 +3394,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.88
+        "zoomFactor": 0.712
       },
       "objectsGroups": [
         {
@@ -3505,7 +3514,7 @@
           "layer": "Game",
           "locked": false,
           "name": "Ground",
-          "width": 5000,
+          "width": 1499,
           "x": -32,
           "y": 288,
           "zOrder": 0,
@@ -3644,6 +3653,171 @@
           "x": 18,
           "y": 115,
           "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "Game",
+          "locked": false,
+          "name": "Ground",
+          "width": 247,
+          "x": 1221,
+          "y": 192,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 45,
+          "layer": "Game",
+          "locked": false,
+          "name": "DoublePlataform",
+          "width": 123,
+          "x": 1568,
+          "y": 128,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 46,
+          "layer": "Game",
+          "locked": false,
+          "name": "MonoPlataform",
+          "width": 60,
+          "x": 1792,
+          "y": 96,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 185,
+          "layer": "Game",
+          "locked": false,
+          "name": "Ground",
+          "width": 373,
+          "x": 1952,
+          "y": 105,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 91,
+          "layer": "Game",
+          "locked": false,
+          "name": "MonoPlataform",
+          "width": 60,
+          "x": 2529,
+          "y": 198,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 136,
+          "layer": "Game",
+          "locked": false,
+          "name": "MonoPlataform",
+          "width": 60,
+          "x": 2656,
+          "y": 153,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 181,
+          "layer": "Game",
+          "locked": false,
+          "name": "MonoPlataform",
+          "width": 60,
+          "x": 2780,
+          "y": 108,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 46,
+          "layer": "Game",
+          "locked": false,
+          "name": "MonoPlataform",
+          "width": 60,
+          "x": 1792,
+          "y": 96,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "Game",
+          "locked": false,
+          "name": "Ground",
+          "width": 1625,
+          "x": 1952,
+          "y": 288,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "Game",
+          "locked": false,
+          "name": "KillZone",
+          "width": 480,
+          "x": 1472,
+          "y": 416,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "Game",
+          "locked": false,
+          "name": "Ground2",
+          "width": 352,
+          "x": 3577,
+          "y": 288,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4220,24 +4394,6 @@
           ]
         },
         {
-          "height": 32,
-          "name": "Ground",
-          "tags": "",
-          "texture": "Sprites\\Stage 1\\Ground\\rock-ground.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
           "height": 360,
           "name": "Fence",
           "tags": "",
@@ -4276,6 +4432,42 @@
           "width": 600,
           "variables": [],
           "behaviors": []
+        },
+        {
+          "height": 160,
+          "name": "Ground2",
+          "tags": "",
+          "texture": "Sprites\\Stage 1\\Ground\\green-metal-ground.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "Ground",
+          "tags": "",
+          "texture": "Sprites\\Stage 1\\Ground\\rock-ground.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": false,
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
         },
         {
           "height": 360,
@@ -4355,9 +4547,9 @@
           "variables": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
+              "canBeGrabbed": false,
               "name": "Platform",
-              "platformType": "Jumpthru",
+              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
               "yGrabOffset": 0
             }
@@ -4373,9 +4565,9 @@
           "variables": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
+              "canBeGrabbed": false,
               "name": "Platform",
-              "platformType": "Jumpthru",
+              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
               "yGrabOffset": 0
             }
@@ -4761,6 +4953,44 @@
             {
               "type": {
                 "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "KillZone"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -4777,12 +5007,13 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
+                "value": "ModVarObjet"
               },
               "parameters": [
-                "",
-                "\"GameOver\"",
-                ""
+                "Zero",
+                "Life",
+                "=",
+                "0"
               ],
               "subInstructions": []
             }
@@ -4925,6 +5156,19 @@
                   "parameters": [
                     "Zero",
                     "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Damage",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -5458,9 +5702,9 @@
                   },
                   "parameters": [
                     "Zero",
-                    "-20",
+                    "-500",
                     "",
-                    ""
+                    "0"
                   ],
                   "subInstructions": []
                 }
