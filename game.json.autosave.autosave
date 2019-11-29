@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.zero.chronicles.katana",
-    "projectFile": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\KatanaChroniclesZero\\game.json.autosave",
+    "projectFile": "C:\\Users\\gabriel.frança\\Documents\\GitHub\\KatanaChroniclesZero\\game.json.autosave",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -3398,7 +3398,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.76
+        "zoomFactor": 1.09
       },
       "objectsGroups": [
         {
@@ -3822,6 +3822,21 @@
           "x": 3577,
           "y": 288,
           "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Game Utils",
+          "locked": false,
+          "name": "AttackText",
+          "width": 0,
+          "x": 128,
+          "y": 32,
+          "zOrder": 99,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4576,6 +4591,25 @@
               "yGrabOffset": 0
             }
           ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "AttackText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "",
+          "font": "Silver.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -4984,7 +5018,20 @@
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "AttackText",
+                "=",
+                "\"Attack: \" + Zero.VariableString(Attack)"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         },
         {
@@ -5686,7 +5733,7 @@
                   ]
                 },
                 {
-                  "disabled": false,
+                  "disabled": true,
                   "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -5811,7 +5858,7 @@
                   ]
                 },
                 {
-                  "disabled": false,
+                  "disabled": true,
                   "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [

@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.zero.chronicles.katana",
-    "projectFile": "C:\\Users\\mathe\\Documents\\GitHub\\KatanaChroniclesZero\\game.json",
+    "projectFile": "C:\\Users\\gabriel.frança\\Documents\\GitHub\\KatanaChroniclesZero\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -1087,6 +1087,220 @@
         "name": "Sprites\\Zero\\Sabre_Attack_01\\SA_08.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/Damaged/dmg_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\Damaged\\dmg_01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/Damaged/dmg_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\Damaged\\dmg_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/Damaged/dmg_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\Damaged\\dmg_03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/Damaged/DEATH_HIT(dmg_04).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\Damaged\\DEATH_HIT(dmg_04).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/LowHealth_idle/lh_idle_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\LowHealth_idle\\lh_idle_01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/LowHealth_idle/lh_idle_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\LowHealth_idle\\lh_idle_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/LowHealth_idle/lh_idle_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\LowHealth_idle\\lh_idle_03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/LowHealth_idle/lh_idle_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\LowHealth_idle\\lh_idle_04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/LowHealth_idle/lh_idle_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\LowHealth_idle\\lh_idle_05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Zero/LowHealth_idle/lh_idle_06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Zero\\LowHealth_idle\\lh_idle_06.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Assets/StopPointer-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Assets\\StopPointer-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Assets/UpPointerAlter.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Assets\\UpPointerAlter.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Assets/LeftPointerAlter.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Assets\\LeftPointerAlter.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Assets/RightPointerAlter.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Assets\\RightPointerAlter.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Songs/Menu/Background.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Songs\\Menu\\Background.mp3",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BlackPointer-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BlackPointer-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Assets/BlackPointer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Assets\\BlackPointer.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Stage 1/Ground/rock-ground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Stage 1\\Ground\\rock-ground.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/GameOver/Background.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\GameOver\\Background.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Game Utils/life-bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Game Utils\\life-bar.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Game Utils/count-lifes-bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Game Utils\\count-lifes-bar.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Stage 1/Plataform/double.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Stage 1\\Plataform\\double.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Stage 1/Plataform/mono.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Stage 1\\Plataform\\mono.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Stage 1/Ground/green-metal-ground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Stage 1\\Ground\\green-metal-ground.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1097,12 +1311,45 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "zeroPulando",
+          "value": "0"
+        },
+        {
+          "name": "zeroAtacando",
+          "value": "0"
+        },
+        {
+          "name": "zeroContadorAtaque",
+          "value": "0"
+        },
+        {
+          "name": "zeroMovendo",
+          "value": "0"
+        },
+        {
+          "name": "zeroColisaoWallLeft",
+          "value": "0"
+        },
+        {
+          "name": "zeroColisaoWallRight",
+          "value": "0"
+        },
+        {
+          "name": "Life",
+          "value": "18"
+        },
+        {
+          "name": "Attack",
+          "value": "0"
+        }
+      ],
       "behaviors": [
         {
-          "canGrabPlatforms": false,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "canGrabPlatforms": true,
           "acceleration": 1500,
           "deceleration": 1500,
           "gravity": 1000,
@@ -1714,8 +1961,8 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
-              "timeBetweenFrames": 0.08,
+              "looping": false,
+              "timeBetweenFrames": 0.0769,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -1862,8 +2109,8 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
-              "timeBetweenFrames": 0.08,
+              "looping": false,
+              "timeBetweenFrames": 0.05,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -1987,6 +2234,263 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Sprites\\Zero\\Sabre_Attack_01\\SA_08.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hit",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.125,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\Damaged\\dmg_01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\Damaged\\dmg_02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\Damaged\\dmg_03.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hit_death",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\Damaged\\dmg_01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\Damaged\\dmg_02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\Damaged\\dmg_03.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\Damaged\\DEATH_HIT(dmg_04).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Low_health_idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1667,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\LowHealth_idle\\lh_idle_01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\LowHealth_idle\\lh_idle_02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\LowHealth_idle\\lh_idle_03.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\LowHealth_idle\\lh_idle_04.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\LowHealth_idle\\lh_idle_05.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprites\\Zero\\LowHealth_idle\\lh_idle_06.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2240,7 +2744,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.832
+        "zoomFactor": 0.376
       },
       "objectsGroups": [],
       "variables": [],
@@ -2249,12 +2753,12 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "TitleImage",
           "locked": false,
-          "name": "StartGame",
+          "name": "Background",
           "width": 0,
-          "x": 241,
-          "y": 231,
+          "x": 0,
+          "y": 428,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -2266,26 +2770,11 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "Exit",
+          "name": "StopPointerAlter",
           "width": 0,
-          "x": 285,
-          "y": 285,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "TitleImage",
-          "locked": false,
-          "name": "Background",
-          "width": 0,
-          "x": -1,
-          "y": 62,
-          "zOrder": 0,
+          "x": 576,
+          "y": -914,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2296,26 +2785,26 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "StopPointer",
-          "width": 0,
-          "x": 580,
-          "y": -69,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "UpPointer",
+          "name": "UpPointerAlter",
           "width": 0,
           "x": 608,
-          "y": 603,
-          "zOrder": 6,
+          "y": 1669,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 371,
+          "layer": "TitleImage",
+          "locked": false,
+          "name": "BlackPointer",
+          "width": 646,
+          "x": -4,
+          "y": -2,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2336,9 +2825,9 @@
           "font": "Silver.ttf",
           "characterSize": 50,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -2355,9 +2844,9 @@
           "font": "Silver.ttf",
           "characterSize": 50,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -2415,6 +2904,172 @@
               ]
             }
           ]
+        },
+        {
+          "name": "StopPointerAlter",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\Assets\\StopPointer-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UpPointerAlter",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\Assets\\UpPointerAlter.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LeftPointerAlter",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\Assets\\LeftPointerAlter.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RightPointerAlter",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\Assets\\RightPointerAlter.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "BlackPointer",
+          "tags": "",
+          "texture": "Sprites\\Assets\\BlackPointer.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -2526,9 +3181,164 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Sound",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Songs\\Menu\\Background.mp3",
+                "yes",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Slide",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "StopPointerAlter",
+                "Background",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Arreter"
+              },
+              "parameters": [
+                "Background"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "StartGame",
+                "255",
+                "240",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Exit",
+                "305",
+                "285",
+                "\"\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "UpPointerAlter",
+                "Background",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Background",
+                "0",
+                "-0.482",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         }
       ],
@@ -2588,7 +3398,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.264
+        "zoomFactor": 0.274
       },
       "objectsGroups": [
         {
@@ -2600,7 +3410,16 @@
           ]
         }
       ],
-      "variables": [],
+      "variables": [
+        {
+          "name": "IntersectX",
+          "value": ""
+        },
+        {
+          "name": "IntersectY",
+          "value": ""
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -2610,24 +3429,9 @@
           "locked": false,
           "name": "Zero",
           "width": 64,
-          "x": 0,
+          "x": 32,
           "y": 224,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "Game",
-          "locked": false,
-          "name": "TestTexture",
-          "width": 288,
-          "x": -256,
-          "y": 288,
-          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2681,10 +3485,10 @@
           "angle": 0,
           "customSize": true,
           "height": 672,
-          "layer": "Background",
+          "layer": "Background-6",
           "locked": false,
           "name": "Sky",
-          "width": 1664,
+          "width": 5888,
           "x": -480,
           "y": -64,
           "zOrder": 0,
@@ -2695,86 +3499,11 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 608,
-          "layer": "Background",
-          "locked": false,
-          "name": "Ruins",
-          "width": 1664,
-          "x": -480,
-          "y": -64,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 640,
-          "layer": "Background",
-          "locked": false,
-          "name": "House2",
-          "width": 1664,
-          "x": -480,
-          "y": -64,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 608,
-          "layer": "Background",
-          "locked": false,
-          "name": "House3",
-          "width": 1664,
-          "x": -480,
-          "y": -64,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 608,
-          "layer": "Background",
-          "locked": false,
-          "name": "House1",
-          "width": 1664,
-          "x": -480,
-          "y": -64,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 576,
-          "layer": "Background",
-          "locked": false,
-          "name": "Fence",
-          "width": 1664,
-          "x": -480,
-          "y": -64,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 576,
-          "layer": "Background",
+          "layer": "Background-1",
           "locked": false,
           "name": "Comp",
-          "width": 1664,
+          "width": 5888,
           "x": -480,
           "y": 288,
           "zOrder": 10,
@@ -2785,12 +3514,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
+          "height": 160,
           "layer": "Game",
           "locked": false,
-          "name": "TestTexture",
-          "width": 288,
-          "x": 32,
+          "name": "Ground",
+          "width": 1499,
+          "x": -32,
           "y": 288,
           "zOrder": 0,
           "numberProperties": [],
@@ -2800,13 +3529,283 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
+          "height": 384,
+          "layer": "Background-5",
+          "locked": false,
+          "name": "Ruins",
+          "width": 5888,
+          "x": -480,
+          "y": -64,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 352,
+          "layer": "Background-4",
+          "locked": false,
+          "name": "House3",
+          "width": 5888,
+          "x": -480,
+          "y": -64,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 352,
+          "layer": "Background-3",
+          "locked": false,
+          "name": "House2",
+          "width": 5888,
+          "x": -480,
+          "y": -64,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 352,
+          "layer": "Background-2",
+          "locked": false,
+          "name": "House1",
+          "width": 5888,
+          "x": -480,
+          "y": -64,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 352,
+          "layer": "Background-1",
+          "locked": false,
+          "name": "Fence",
+          "width": 5888,
+          "x": -480,
+          "y": -64,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 352,
+          "layer": "",
+          "locked": false,
+          "name": "BlackPointer",
+          "width": 32,
+          "x": 4928,
+          "y": -64,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 352,
+          "layer": "",
+          "locked": false,
+          "name": "BlackPointer",
+          "width": 32,
+          "x": -32,
+          "y": -64,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Game Utils",
+          "locked": false,
+          "name": "Lifebar",
+          "width": 0,
+          "x": 11,
+          "y": 12,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "height": -90,
+          "layer": "Game Utils",
+          "locked": false,
+          "name": "CountLifesBar",
+          "width": 20,
+          "x": 18,
+          "y": 115,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
           "layer": "Game",
           "locked": false,
-          "name": "TestTexture",
-          "width": 288,
-          "x": 320,
+          "name": "Ground",
+          "width": 247,
+          "x": 1221,
+          "y": 192,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 45,
+          "layer": "Game",
+          "locked": false,
+          "name": "DoublePlataform",
+          "width": 123,
+          "x": 1568,
+          "y": 128,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 46,
+          "layer": "Game",
+          "locked": false,
+          "name": "MonoPlataform",
+          "width": 60,
+          "x": 1792,
+          "y": 96,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 185,
+          "layer": "Game",
+          "locked": false,
+          "name": "Ground",
+          "width": 373,
+          "x": 1952,
+          "y": 105,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 91,
+          "layer": "Game",
+          "locked": false,
+          "name": "MonoPlataform",
+          "width": 60,
+          "x": 2529,
+          "y": 198,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 136,
+          "layer": "Game",
+          "locked": false,
+          "name": "MonoPlataform",
+          "width": 60,
+          "x": 2656,
+          "y": 153,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 181,
+          "layer": "Game",
+          "locked": false,
+          "name": "MonoPlataform",
+          "width": 60,
+          "x": 2780,
+          "y": 108,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 46,
+          "layer": "Game",
+          "locked": false,
+          "name": "MonoPlataform",
+          "width": 60,
+          "x": 1792,
+          "y": 96,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "Game",
+          "locked": false,
+          "name": "Ground",
+          "width": 1625,
+          "x": 1952,
           "y": 288,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "Game",
+          "locked": false,
+          "name": "KillZone",
+          "width": 480,
+          "x": 1472,
+          "y": 416,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -2815,14 +3814,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
+          "height": 160,
           "layer": "Game",
           "locked": false,
-          "name": "TestTexture",
-          "width": 288,
-          "x": 608,
+          "name": "Ground2",
+          "width": 352,
+          "x": 3577,
           "y": 288,
-          "zOrder": 0,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2830,14 +3829,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
-          "layer": "Game",
+          "height": 32,
+          "layer": "",
           "locked": false,
-          "name": "TestTexture",
-          "width": 288,
-          "x": 896,
-          "y": 288,
-          "zOrder": 0,
+          "name": "KillZone",
+          "width": 5888,
+          "x": -480,
+          "y": 448,
+          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2853,6 +3852,10 @@
             {
               "name": "Direction",
               "value": "0"
+            },
+            {
+              "name": "Death",
+              "value": "1"
             }
           ],
           "behaviors": [
@@ -3410,24 +4413,6 @@
           ]
         },
         {
-          "height": 32,
-          "name": "TestTexture",
-          "tags": "",
-          "texture": "Sprites\\Stage 1\\Ground\\rock-ground.jpg",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
           "height": 360,
           "name": "Fence",
           "tags": "",
@@ -3468,6 +4453,42 @@
           "behaviors": []
         },
         {
+          "height": 160,
+          "name": "Ground2",
+          "tags": "",
+          "texture": "Sprites\\Stage 1\\Ground\\green-metal-ground.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "Ground",
+          "tags": "",
+          "texture": "Sprites\\Stage 1\\Ground\\rock-ground.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
           "height": 360,
           "name": "Ruins",
           "tags": "",
@@ -3496,109 +4517,83 @@
           "width": 32,
           "variables": [],
           "behaviors": []
-        }
-      ],
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Swordman_movements",
-          "comment2": ""
         },
         {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "height": 32,
+          "name": "BlackPointer",
+          "tags": "",
+          "texture": "Sprites\\Assets\\BlackPointer.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
             {
-              "type": {
-                "inverted": false,
-                "value": "PlatformBehavior::IsOnFloor"
-              },
-              "parameters": [
-                "GenericSwordman",
-                "PlatformerObject"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlatformBehavior::IsMoving"
-                  },
-                  "parameters": [
-                    "GenericSwordman",
-                    "PlatformerObject"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "GenericSwordman",
-                    "\"Walk\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "PlatformBehavior::IsMoving"
-                  },
-                  "parameters": [
-                    "GenericSwordman",
-                    "PlatformerObject"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "GenericSwordman",
-                    "\"Idle\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
             }
           ]
         },
+        {
+          "height": 148,
+          "name": "Lifebar",
+          "tags": "",
+          "texture": "Sprites\\Game Utils\\life-bar.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 35,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "height": 5,
+          "name": "CountLifesBar",
+          "tags": "",
+          "texture": "Sprites\\Game Utils\\count-lifes-bar.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 20,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "height": 32,
+          "name": "DoublePlataform",
+          "tags": "",
+          "texture": "Sprites\\Stage 1\\Plataform\\double.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "MonoPlataform",
+          "tags": "",
+          "texture": "Sprites\\Stage 1\\Plataform\\mono.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        }
+      ],
+      "events": [
         {
           "disabled": false,
           "folded": false,
@@ -3620,7 +4615,37 @@
       ],
       "layers": [
         {
-          "name": "Background",
+          "name": "Background-6",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "Background-5",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "Background-4",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "Background-3",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "Background-2",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "Background-1",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -3653,6 +4678,12 @@
           "visibility": true,
           "cameras": [],
           "effects": []
+        },
+        {
+          "name": "Game Utils",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
@@ -3660,6 +4691,251 @@
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
         },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "GameOver",
+      "name": "GameOver",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": true,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 1.024
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Background",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "ReturnToMenu",
+          "width": 224,
+          "x": 192,
+          "y": 256,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Continue",
+          "width": 128,
+          "x": 224,
+          "y": 206,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "height": 360,
+          "name": "Background",
+          "tags": "",
+          "texture": "Sprites\\GameOver\\Background.jpg",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 640,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "ReturnToMenu",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Return to Menu",
+          "font": "Silver.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Continue",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Continue",
+          "font": "Silver.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Continue",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Stage-01\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ReturnToMenu",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
@@ -3696,6 +4972,44 @@
             {
               "type": {
                 "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "KillZone"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -3712,12 +5026,13 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
+                "value": "ModVarObjet"
               },
               "parameters": [
-                "",
-                "CurrentSceneName()",
-                ""
+                "Zero",
+                "Life",
+                "=",
+                "0"
               ],
               "subInstructions": []
             }
@@ -3755,7 +5070,7 @@
                 "Zero",
                 "0",
                 "0",
-                "min(3000, max(Zero.X(), 3000))",
+                "min(4900, max(Zero.X(), 4900))",
                 "min(720, max(Zero.Y(), 720))",
                 "no",
                 "\"Game\"",
@@ -3772,7 +5087,63 @@
                 "",
                 "=",
                 "Zero.X()*0.1",
-                "\"Background\"",
+                "\"Background-1\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Zero.X()*0.2",
+                "\"Background-2\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Zero.X()*0.3",
+                "\"Background-3\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Zero.X()*0.2",
+                "\"Background-4\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Zero.X()*0.3",
+                "\"Background-5\"",
                 ""
               ],
               "subInstructions": []
@@ -3781,38 +5152,15 @@
           "events": []
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "disabled": false,
           "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Zero_Moviments",
-          "comment2": ""
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlatformBehavior::IsOnFloor"
-              },
-              "parameters": [
-                "Zero",
-                "PlatformerObject"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
+          "name": "Zero_Moviments",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "disabled": false,
@@ -3822,7 +5170,229 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlatformBehavior::IsMoving"
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Damage",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Attack",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "zeroPulando",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::IsMoving"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "\"Walk\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "zeroMovendo",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "PlatformBehavior::IsMoving"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "Life",
+                        ">=",
+                        "5"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "\"Idle\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "zeroPulando",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "PlatformBehavior::IsMoving"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "Life",
+                        "<",
+                        "5"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "\"Low_health_idle\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "zeroPulando",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::IsJumping"
                   },
                   "parameters": [
                     "Zero",
@@ -3835,11 +5405,24 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "zeroPulando",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "SetAnimationName"
                   },
                   "parameters": [
                     "Zero",
-                    "\"Walk\""
+                    "\"Jump\""
                   ],
                   "subInstructions": []
                 }
@@ -3853,8 +5436,8 @@
               "conditions": [
                 {
                   "type": {
-                    "inverted": true,
-                    "value": "PlatformBehavior::IsMoving"
+                    "inverted": false,
+                    "value": "PlatformBehavior::IsFalling"
                   },
                   "parameters": [
                     "Zero",
@@ -3867,146 +5450,510 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "zeroPulando",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "SetAnimationName"
                   },
                   "parameters": [
                     "Zero",
-                    "\"Idle\""
+                    "\"Falling\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Right"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Zero",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "x"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::SimulateJumpKey"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "PlatformerObject"
                   ],
                   "subInstructions": []
                 }
               ],
               "events": []
             }
-          ]
+          ],
+          "parameters": []
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "disabled": false,
           "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "name": "Attacks",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "inverted": false,
-                "value": "PlatformBehavior::IsJumping"
-              },
-              "parameters": [
-                "Zero",
-                "PlatformerObject"
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "z"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "\"Sabre_Attack_01\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "Attack",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "z"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Zero",
+                            "Attack",
+                            "=",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "Attack",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "\"Sabre_Attack_01\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "z"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Zero",
+                            "Attack",
+                            "=",
+                            "2"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Zero",
+                            "Attack",
+                            "=",
+                            "0"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "Attack",
+                        "=",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "\"Sabre_Attack_01\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "z"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Zero",
+                            "Attack",
+                            "=",
+                            "3"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Zero",
+                            "Attack",
+                            "=",
+                            "0"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                }
+              ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "Zero",
-                "\"Jump\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlatformBehavior::IsFalling"
-              },
-              "parameters": [
-                "Zero",
-                "PlatformerObject"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "Zero",
-                "\"Falling\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "FlipX"
-              },
-              "parameters": [
-                "Zero",
-                "yes"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Right"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "FlipX"
-              },
-              "parameters": [
-                "Zero",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
+          "parameters": []
         },
         {
           "disabled": false,
@@ -4020,7 +5967,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Attacks\n",
+          "comment": "Life",
           "comment2": ""
         },
         {
@@ -4031,11 +5978,25 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PlatformBehavior::IsOnFloor"
+                "value": "CollisionNP"
               },
               "parameters": [
                 "Zero",
-                "PlatformerObject"
+                "EnemyGroup",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "z"
               ],
               "subInstructions": []
             }
@@ -4050,11 +6011,91 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "KeyPressed"
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
                   },
                   "parameters": [
+                    "Zero",
+                    "Life",
+                    "-",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "\"Hit\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "-500",
                     "",
-                    "c"
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Zero",
+                "Life",
+                ">",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Life",
+                    "=",
+                    "1"
                   ],
                   "subInstructions": []
                 }
@@ -4063,11 +6104,607 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetAnimationName"
+                    "value": "TiledSpriteObject::Height"
+                  },
+                  "parameters": [
+                    "CountLifesBar",
+                    "=",
+                    "-5"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
                   },
                   "parameters": [
                     "Zero",
-                    "\"Sabre_Attack_01\""
+                    "Life",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::Height"
+                  },
+                  "parameters": [
+                    "CountLifesBar",
+                    "=",
+                    "-10"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Life",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::Height"
+                  },
+                  "parameters": [
+                    "CountLifesBar",
+                    "=",
+                    "-15"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Life",
+                    "=",
+                    "4"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::Height"
+                  },
+                  "parameters": [
+                    "CountLifesBar",
+                    "=",
+                    "-20"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Life",
+                    "=",
+                    "5"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::Height"
+                  },
+                  "parameters": [
+                    "CountLifesBar",
+                    "=",
+                    "-25"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Life",
+                    "=",
+                    "6"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::Height"
+                  },
+                  "parameters": [
+                    "CountLifesBar",
+                    "=",
+                    "-30"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Life",
+                    "=",
+                    "7"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::Height"
+                  },
+                  "parameters": [
+                    "CountLifesBar",
+                    "=",
+                    "-35"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Life",
+                    "=",
+                    "8"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::Height"
+                  },
+                  "parameters": [
+                    "CountLifesBar",
+                    "=",
+                    "-40"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Life",
+                    "=",
+                    "9"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::Height"
+                  },
+                  "parameters": [
+                    "CountLifesBar",
+                    "=",
+                    "-45"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Life",
+                    "=",
+                    "10"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::Height"
+                  },
+                  "parameters": [
+                    "CountLifesBar",
+                    "=",
+                    "-50"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Life",
+                    "=",
+                    "11"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::Height"
+                  },
+                  "parameters": [
+                    "CountLifesBar",
+                    "=",
+                    "-55"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Life",
+                    "=",
+                    "12"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::Height"
+                  },
+                  "parameters": [
+                    "CountLifesBar",
+                    "=",
+                    "-60"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Life",
+                    "=",
+                    "13"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::Height"
+                  },
+                  "parameters": [
+                    "CountLifesBar",
+                    "=",
+                    "-65"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Life",
+                    "=",
+                    "14"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::Height"
+                  },
+                  "parameters": [
+                    "CountLifesBar",
+                    "=",
+                    "-70"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Life",
+                    "=",
+                    "15"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::Height"
+                  },
+                  "parameters": [
+                    "CountLifesBar",
+                    "=",
+                    "-75"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Life",
+                    "=",
+                    "16"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::Height"
+                  },
+                  "parameters": [
+                    "CountLifesBar",
+                    "=",
+                    "-80"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Life",
+                    "=",
+                    "17"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::Height"
+                  },
+                  "parameters": [
+                    "CountLifesBar",
+                    "=",
+                    "-85"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Life",
+                    "=",
+                    "18"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::Height"
+                  },
+                  "parameters": [
+                    "CountLifesBar",
+                    "=",
+                    "-90"
                   ],
                   "subInstructions": []
                 }
@@ -4075,6 +6712,64 @@
               "events": []
             }
           ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Zero",
+                "Life",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TiledSpriteObject::Height"
+              },
+              "parameters": [
+                "CountLifesBar",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"GameOver\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Zero",
+                "\"Hit_death\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ]
     },
@@ -4416,11 +7111,10 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PlatformBehavior::SimulateReleaseKey"
+                "value": "Arreter"
               },
               "parameters": [
-                "EnemyGroup",
-                "PlatformerObject"
+                "EnemyGroup"
               ],
               "subInstructions": []
             }
@@ -4619,7 +7313,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Enemy_actions",
+          "comment": "Enemy_mechanics",
           "comment2": ""
         },
         {
@@ -4664,6 +7358,204 @@
                 "Death",
                 "=",
                 "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "EnemyGroup",
+                "Death",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "GenericSwordman",
+                "\"Death\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Swordman_movements",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "GenericSwordman",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "EnemyGroup",
+                "Direction",
+                "<",
+                "5"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "GenericSwordman",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "GenericSwordman",
+                    "\"Walk\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "GenericSwordman",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "GenericSwordman",
+                    "\"Idle\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Raycast"
+              },
+              "parameters": [
+                "GenericSwordman",
+                "GenericSwordman.X()+20",
+                "GenericSwordman.Y()",
+                "GenericSwordman.Direction()",
+                "15",
+                "IntersectX",
+                "IntersectY",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "EnemyGroup",
+                "Direction",
+                "=",
+                "5"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "GenericSwordman",
+                "\"Simple-Attack\""
               ],
               "subInstructions": []
             }
