@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.zero.chronicles.katana",
-    "projectFile": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\KatanaChroniclesZero\\game.json.autosave",
+    "projectFile": "C:\\Users\\mathe\\Documents\\GitHub\\KatanaChroniclesZero\\game.json.autosave",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -1347,9 +1347,9 @@
       ],
       "behaviors": [
         {
+          "canGrabPlatforms": false,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "canGrabPlatforms": true,
           "acceleration": 1500,
           "deceleration": 1500,
           "gravity": 1000,
@@ -3519,7 +3519,7 @@
           "locked": false,
           "name": "Ground",
           "width": 1499,
-          "x": -32,
+          "x": -26,
           "y": 288,
           "zOrder": 0,
           "numberProperties": [],
@@ -3669,7 +3669,7 @@
           "locked": false,
           "name": "Ground",
           "width": 247,
-          "x": 1221,
+          "x": 1227,
           "y": 192,
           "zOrder": 20,
           "numberProperties": [],
@@ -3803,8 +3803,8 @@
           "layer": "Game",
           "locked": false,
           "name": "KillZone",
-          "width": 512,
-          "x": 1440,
+          "width": 480,
+          "x": 1472,
           "y": 416,
           "zOrder": 0,
           "numberProperties": [],
@@ -5715,6 +5715,17 @@
                   "type": {
                     "inverted": false,
                     "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::IsMoving"
                   },
                   "parameters": [
                     "Zero",
