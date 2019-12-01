@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.zero.chronicles.katana",
-    "projectFile": "C:\\Users\\gabriel.frança\\Documents\\GitHub\\KatanaChroniclesZero\\game.json.autosave",
+    "projectFile": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\KatanaChroniclesZero\\game.json.autosave",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -1382,10 +1382,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1399,10 +1399,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1416,10 +1416,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1433,10 +1433,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1450,10 +1450,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1467,10 +1467,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 }
@@ -1496,10 +1496,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1513,10 +1513,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1530,10 +1530,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1547,10 +1547,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1564,10 +1564,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1581,10 +1581,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1598,10 +1598,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1615,10 +1615,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1632,10 +1632,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1649,10 +1649,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1666,10 +1666,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 }
@@ -1695,10 +1695,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1712,10 +1712,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1729,10 +1729,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1746,10 +1746,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1763,10 +1763,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1780,10 +1780,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1797,10 +1797,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1814,10 +1814,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1831,10 +1831,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1848,10 +1848,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1865,10 +1865,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1882,10 +1882,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 }
@@ -1911,10 +1911,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1928,10 +1928,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1945,10 +1945,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 }
@@ -1974,10 +1974,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -1991,10 +1991,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -2008,10 +2008,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -2025,10 +2025,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -2042,10 +2042,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -2059,10 +2059,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -2076,10 +2076,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -2093,10 +2093,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 }
@@ -2122,10 +2122,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -2139,10 +2139,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -2156,10 +2156,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -2173,10 +2173,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -2190,10 +2190,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -2207,10 +2207,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -2224,10 +2224,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -2241,10 +2241,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 }
@@ -2270,10 +2270,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -2287,10 +2287,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -2304,10 +2304,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 }
@@ -2333,10 +2333,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -2350,10 +2350,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -2367,10 +2367,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -2384,10 +2384,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 }
@@ -2413,10 +2413,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -2430,10 +2430,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -2447,10 +2447,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -2464,10 +2464,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -2481,10 +2481,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 },
@@ -2498,10 +2498,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 42.5,
+                    "y": 27
                   },
                   "customCollisionMask": []
                 }
@@ -3398,7 +3398,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.09
+        "zoomFactor": 0.97
       },
       "objectsGroups": [
         {
@@ -3803,8 +3803,8 @@
           "layer": "Game",
           "locked": false,
           "name": "KillZone",
-          "width": 480,
-          "x": 1472,
+          "width": 512,
+          "x": 1440,
           "y": 416,
           "zOrder": 0,
           "numberProperties": [],
@@ -3834,9 +3834,24 @@
           "locked": false,
           "name": "AttackText",
           "width": 0,
-          "x": 128,
-          "y": 32,
+          "x": 352,
+          "y": 128,
           "zOrder": 99,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Timer",
+          "width": 0,
+          "x": 352,
+          "y": 32,
+          "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4610,6 +4625,25 @@
             "g": 0,
             "r": 255
           }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Timer",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "",
+          "font": "Silver.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 248,
+            "g": 196,
+            "r": 0
+          }
         }
       ],
       "events": [
@@ -4980,7 +5014,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Testes",
+          "comment": "Kill_zone",
           "comment2": ""
         },
         {
@@ -4995,6 +5029,18 @@
                 "value": "TextObject::String"
               },
               "parameters": [
+                "Timer",
+                "=",
+                "\"Timer: \" + ToString(Zero.ObjectTimerElapsedTime(\"AttackCountdown\"))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
                 "AttackText",
                 "=",
                 "\"Attack: \" + Zero.VariableString(Attack)"
@@ -5003,21 +5049,6 @@
             }
           ],
           "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Kill_zone",
-          "comment2": ""
         },
         {
           "disabled": false,
@@ -5043,6 +5074,50 @@
               },
               "parameters": [
                 "KillZone"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Zero",
+                "\"AttackCountdown\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PauseObjectTimer"
+              },
+              "parameters": [
+                "Zero",
+                "\"AttackCountdown\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PauseObjectTimer"
+              },
+              "parameters": [
+                "Zero",
+                "\"DamageCountdown\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Zero",
+                "\"DamageCountdown\""
               ],
               "subInstructions": []
             }
@@ -5658,38 +5733,6 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "z"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SetAnimationName"
-                      },
-                      "parameters": [
-                        "Zero",
-                        "\"Sabre_Attack_01\""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
                         "value": "VarObjet"
                       },
                       "parameters": [
@@ -5712,7 +5755,19 @@
                       "subInstructions": []
                     }
                   ],
-                  "actions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "UnPauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "\"AttackCountdown\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
                   "events": [
                     {
                       "disabled": false,
@@ -5729,6 +5784,17 @@
                         }
                       ],
                       "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "SetAnimationName"
+                          },
+                          "parameters": [
+                            "Zero",
+                            "\"Sabre_Attack_01\""
+                          ],
+                          "subInstructions": []
+                        },
                         {
                           "type": {
                             "inverted": false,
@@ -5748,20 +5814,30 @@
                   ]
                 },
                 {
-                  "disabled": true,
+                  "disabled": false,
                   "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
-                        "value": "VarObjet"
+                        "inverted": true,
+                        "value": "ObjectTimerPaused"
                       },
                       "parameters": [
                         "Zero",
-                        "Attack",
-                        "=",
-                        "1"
+                        "\"AttackCountdown\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ObjectTimer"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "\"AttackCountdown\"",
+                        "0.2"
                       ],
                       "subInstructions": []
                     }
@@ -5770,232 +5846,40 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "SetAnimationName"
+                        "value": "PauseObjectTimer"
                       },
                       "parameters": [
                         "Zero",
-                        "\"Sabre_Attack_01\""
+                        "\"AttackCountdown\""
                       ],
                       "subInstructions": []
-                    }
-                  ],
-                  "events": [
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": [],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [],
-                      "events": []
                     },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "KeyPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "z"
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": [],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "Zero",
-                            "Attack",
-                            "=",
-                            "2"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": [],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "Zero",
-                            "Attack",
-                            "=",
-                            "0"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    }
-                  ]
-                },
-                {
-                  "disabled": true,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
                     {
                       "type": {
                         "inverted": false,
-                        "value": "VarObjet"
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "\"AttackCountdown\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
                       },
                       "parameters": [
                         "Zero",
                         "Attack",
                         "=",
-                        "2"
+                        "0"
                       ],
                       "subInstructions": []
                     }
                   ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SetAnimationName"
-                      },
-                      "parameters": [
-                        "Zero",
-                        "\"Sabre_Attack_01\""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": [
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": [],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [],
-                      "events": []
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "KeyPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "z"
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": [],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "Zero",
-                            "Attack",
-                            "=",
-                            "3"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": [],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "Zero",
-                            "Attack",
-                            "=",
-                            "0"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    }
-                  ]
+                  "events": []
                 }
               ]
             }
