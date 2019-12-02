@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.zero.chronicles.katana",
-    "projectFile": "C:\\Users\\mathe\\Documents\\GitHub\\KatanaChroniclesZero\\game.json.autosave",
+    "projectFile": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\KatanaChroniclesZero\\game.json.autosave",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -1343,13 +1343,17 @@
         {
           "name": "Attack",
           "value": "0"
+        },
+        {
+          "name": "Side",
+          "value": "0"
         }
       ],
       "behaviors": [
         {
-          "canGrabPlatforms": false,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "canGrabPlatforms": false,
           "acceleration": 1500,
           "deceleration": 1500,
           "gravity": 1000,
@@ -2744,7 +2748,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.376
+        "zoomFactor": 0.352
       },
       "objectsGroups": [],
       "variables": [],
@@ -3398,7 +3402,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.97
+        "zoomFactor": 0.922
       },
       "objectsGroups": [
         {
@@ -3744,7 +3748,7 @@
           "locked": false,
           "name": "MonoPlataform",
           "width": 60,
-          "x": 2656,
+          "x": 2691,
           "y": 153,
           "zOrder": 22,
           "numberProperties": [],
@@ -3759,7 +3763,7 @@
           "locked": false,
           "name": "MonoPlataform",
           "width": 60,
-          "x": 2780,
+          "x": 2851,
           "y": 108,
           "zOrder": 22,
           "numberProperties": [],
@@ -3852,6 +3856,21 @@
           "x": 352,
           "y": 32,
           "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "XText",
+          "width": 0,
+          "x": 448,
+          "y": 64,
+          "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4629,6 +4648,25 @@
         {
           "bold": false,
           "italic": false,
+          "name": "XText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "",
+          "font": "Silver.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 209,
+            "g": 50,
+            "r": 208
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
           "name": "Timer",
           "smoothed": true,
           "tags": "",
@@ -5044,6 +5082,18 @@
                 "AttackText",
                 "=",
                 "\"Attack: \" + Zero.VariableString(Attack)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "XText",
+                "=",
+                "\"Eixo x: \" + ToString(Zero.X())"
               ],
               "subInstructions": []
             }
@@ -5624,6 +5674,19 @@
                     "yes"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Side",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -5654,6 +5717,19 @@
                   "parameters": [
                     "Zero",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Side",
+                    "=",
+                    "1"
                   ],
                   "subInstructions": []
                 }
@@ -5848,7 +5924,7 @@
                       "parameters": [
                         "Zero",
                         "\"AttackCountdown\"",
-                        "0.2"
+                        "0.168"
                       ],
                       "subInstructions": []
                     }
@@ -5896,6 +5972,303 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Dash_Attack",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "Zero",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PlatformBehavior::IsMoving"
+              },
+              "parameters": [
+                "Zero",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Attack",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "c"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "UnPauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "\"AttackCountdown\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "Side",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "Attack",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "\"Dash_Attack\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "-4000",
+                        "0",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "Side",
+                        "=",
+                        "1\n"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "Attack",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "\"Dash_Attack\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Zero",
+                        "4000",
+                        "0",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "ObjectTimerPaused"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "\"AttackCountdown\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "\"AttackCountdown\"",
+                    "0.8"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "\"AttackCountdown\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "\"AttackCountdown\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Attack",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "disabled": false,
