@@ -1396,12 +1396,12 @@
       ],
       "behaviors": [
         {
+          "deceleration": 1500,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "roundCoordinates": false,
           "canGrabPlatforms": false,
           "acceleration": 1500,
-          "deceleration": 1500,
           "gravity": 1000,
           "ignoreDefaultControls": false,
           "jumpSpeed": 600,
@@ -3478,7 +3478,7 @@
           "locked": false,
           "name": "Zero",
           "width": 64,
-          "x": 32,
+          "x": 63,
           "y": 224,
           "zOrder": 100,
           "numberProperties": [],
@@ -3493,12 +3493,17 @@
           "locked": false,
           "name": "GenericSwordman",
           "width": 64,
-          "x": 640,
+          "x": 832,
           "y": 224,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "value": "0"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -3509,7 +3514,7 @@
           "name": "RightPointer",
           "width": 0,
           "x": 416,
-          "y": 224,
+          "y": 225,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -4024,6 +4029,26 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "Game",
+          "locked": false,
+          "name": "GenericSwordman",
+          "width": 64,
+          "x": 640,
+          "y": 224,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "value": "2"
+            }
+          ]
         }
       ],
       "objects": [
@@ -4768,11 +4793,11 @@
           "variables": [],
           "behaviors": [
             {
+              "canBeGrabbed": false,
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": false,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
+              "yGrabOffset": 0,
+              "platformType": "NormalPlatform"
             }
           ]
         },
@@ -4908,10 +4933,10 @@
           "variables": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -6354,8 +6379,8 @@
                       },
                       "parameters": [
                         "Zero",
-                        "-2000",
-                        "1",
+                        "-4000",
+                        "0",
                         "0"
                       ],
                       "subInstructions": []
@@ -6422,8 +6447,8 @@
                       },
                       "parameters": [
                         "Zero",
-                        "2000",
-                        "1",
+                        "4000",
+                        "0",
                         "0"
                       ],
                       "subInstructions": []

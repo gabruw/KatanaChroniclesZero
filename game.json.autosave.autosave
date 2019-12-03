@@ -1337,6 +1337,15 @@
         "name": "Sprites\\scenario\\room_1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/scenario/room_floor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\scenario\\room_floor.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1387,12 +1396,12 @@
       ],
       "behaviors": [
         {
+          "deceleration": 1500,
           "name": "PlatformerObject",
-          "roundCoordinates": false,
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "roundCoordinates": false,
           "canGrabPlatforms": false,
           "acceleration": 1500,
-          "deceleration": 1500,
           "gravity": 1000,
           "ignoreDefaultControls": false,
           "jumpSpeed": 600,
@@ -3438,7 +3447,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.114
+        "zoomFactor": 1.93
       },
       "objectsGroups": [
         {
@@ -3469,9 +3478,9 @@
           "locked": false,
           "name": "Zero",
           "width": 64,
-          "x": 3520,
-          "y": 128,
-          "zOrder": 21,
+          "x": 63,
+          "y": 224,
+          "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3484,12 +3493,17 @@
           "locked": false,
           "name": "GenericSwordman",
           "width": 64,
-          "x": 640,
+          "x": 864,
           "y": 224,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "value": "0"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -3500,7 +3514,7 @@
           "name": "RightPointer",
           "width": 0,
           "x": 416,
-          "y": 224,
+          "y": 225,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -3921,7 +3935,7 @@
           "width": 25,
           "x": 3904,
           "y": 32,
-          "zOrder": 24,
+          "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3974,17 +3988,67 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 224,
+          "height": 192,
+          "layer": "Game",
+          "locked": false,
+          "name": "ROOM1BG",
+          "width": 896,
+          "x": 3904,
+          "y": 110,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "Game",
+          "locked": false,
+          "name": "ROOM1BG",
+          "width": 896,
+          "x": 3904,
+          "y": 110,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
           "layer": "",
           "locked": false,
-          "name": "NewObject",
-          "width": 800,
-          "x": 3904,
-          "y": 96,
+          "name": "Room_floor1",
+          "width": 0,
+          "x": 3936,
+          "y": 288,
           "zOrder": 102,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "Game",
+          "locked": false,
+          "name": "GenericSwordman",
+          "width": 64,
+          "x": 640,
+          "y": 224,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "value": "2"
+            }
+          ]
         }
       ],
       "objects": [
@@ -4625,9 +4689,9 @@
           "variables": [],
           "behaviors": [
             {
-              "canBeGrabbed": false,
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
               "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
@@ -4729,11 +4793,11 @@
           "variables": [],
           "behaviors": [
             {
+              "canBeGrabbed": false,
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": false,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
+              "yGrabOffset": 0,
+              "platformType": "NormalPlatform"
             }
           ]
         },
@@ -4853,6 +4917,29 @@
           "width": 229,
           "variables": [],
           "behaviors": []
+        },
+        {
+          "bottomMargin": 0,
+          "height": 64,
+          "leftMargin": 0,
+          "name": "Room_floor1",
+          "rightMargin": 0,
+          "tags": "",
+          "texture": "Sprites\\scenario\\room_floor.png",
+          "tiled": true,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 64,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
         }
       ],
       "events": [
@@ -6292,8 +6379,8 @@
                       },
                       "parameters": [
                         "Zero",
-                        "-2000",
-                        "1",
+                        "-4000",
+                        "0",
                         "0"
                       ],
                       "subInstructions": []
@@ -6360,8 +6447,8 @@
                       },
                       "parameters": [
                         "Zero",
-                        "2000",
-                        "1",
+                        "4000",
+                        "0",
                         "0"
                       ],
                       "subInstructions": []
