@@ -1346,6 +1346,33 @@
         "name": "Sprites\\scenario\\room_floor.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/scenario/room2_ceiling.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\scenario\\room2_ceiling.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/scenario/room2_wall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\scenario\\room2_wall.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/scenario/Room_filling_texture.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\scenario\\Room_filling_texture.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3437,7 +3464,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 32,
@@ -3445,9 +3472,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 32,
-        "snap": true,
+        "snap": false,
         "windowMask": false,
-        "zoomFactor": 1.93
+        "zoomFactor": 2.482
       },
       "objectsGroups": [
         {
@@ -3478,8 +3505,8 @@
           "locked": false,
           "name": "Zero",
           "width": 64,
-          "x": 63,
-          "y": 224,
+          "x": 97,
+          "y": 223,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -3493,7 +3520,7 @@
           "locked": false,
           "name": "GenericSwordman",
           "width": 64,
-          "x": 864,
+          "x": 832,
           "y": 224,
           "zOrder": 1,
           "numberProperties": [],
@@ -3933,7 +3960,7 @@
           "locked": false,
           "name": "Sidewall",
           "width": 25,
-          "x": 3904,
+          "x": 3905,
           "y": 32,
           "zOrder": 101,
           "numberProperties": [],
@@ -3943,13 +3970,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 212,
+          "height": 320,
           "layer": "Game",
           "locked": false,
           "name": "gate",
-          "width": 57,
-          "x": 3872,
-          "y": -3,
+          "width": 60,
+          "x": 3870,
+          "y": -131,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -3958,13 +3985,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 153,
+          "height": 237,
           "layer": "Game",
           "locked": false,
           "name": "entranceBG",
           "width": 31,
           "x": 3874,
-          "y": 150,
+          "y": 73,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -3988,44 +4015,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 192,
+          "height": 64,
           "layer": "Game",
-          "locked": false,
-          "name": "ROOM1BG",
-          "width": 896,
-          "x": 3904,
-          "y": 110,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 192,
-          "layer": "Game",
-          "locked": false,
-          "name": "ROOM1BG",
-          "width": 896,
-          "x": 3904,
-          "y": 110,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
           "locked": false,
           "name": "Room_floor1",
-          "width": 0,
-          "x": 3936,
-          "y": 288,
-          "zOrder": 102,
+          "width": 128,
+          "x": 4249,
+          "y": 225,
+          "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4049,6 +4046,96 @@
               "value": "2"
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Game",
+          "locked": false,
+          "name": "Room1_bg",
+          "width": 0,
+          "x": 3925,
+          "y": 65,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "Game",
+          "locked": false,
+          "name": "Room_floor1",
+          "width": 320,
+          "x": 3929,
+          "y": 288,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "height": 20,
+          "layer": "Game",
+          "locked": false,
+          "name": "Room_ceilling",
+          "width": 855,
+          "x": 3930,
+          "y": 65,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 133,
+          "layer": "Game",
+          "locked": false,
+          "name": "bricks",
+          "width": 889,
+          "x": 3930,
+          "y": -58,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 172,
+          "layer": "Game",
+          "locked": false,
+          "name": "Room_filling_texture",
+          "width": 129,
+          "x": 4248,
+          "y": 288,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 113,
+          "layer": "Game",
+          "locked": false,
+          "name": "Room_filling_texture",
+          "width": 320,
+          "x": 3929,
+          "y": 347,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -4905,21 +4992,6 @@
         },
         {
           "bottomMargin": 0,
-          "height": 60,
-          "leftMargin": 0,
-          "name": "ROOM1BG",
-          "rightMargin": 0,
-          "tags": "",
-          "texture": "Sprites\\scenario\\room_1.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 229,
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bottomMargin": 0,
           "height": 64,
           "leftMargin": 0,
           "name": "Room_floor1",
@@ -4940,6 +5012,69 @@
               "yGrabOffset": 0
             }
           ]
+        },
+        {
+          "bottomMargin": 0,
+          "height": 225,
+          "leftMargin": 0,
+          "name": "Room1_bg",
+          "rightMargin": 0,
+          "tags": "",
+          "texture": "Sprites\\scenario\\room_1.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 896,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "height": 20,
+          "name": "Room_ceilling",
+          "tags": "",
+          "texture": "Sprites\\scenario\\room2_ceiling.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 294,
+          "variables": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": false,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "bottomMargin": 0,
+          "height": 35,
+          "leftMargin": 0,
+          "name": "bricks",
+          "rightMargin": 0,
+          "tags": "",
+          "texture": "Sprites\\scenario\\room2_wall.png",
+          "tiled": true,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 30,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "bottomMargin": 0,
+          "height": 30,
+          "leftMargin": 0,
+          "name": "Room_filling_texture",
+          "rightMargin": 0,
+          "tags": "",
+          "texture": "Sprites\\scenario\\Room_filling_texture.png",
+          "tiled": true,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 40,
+          "variables": [],
+          "behaviors": []
         }
       ],
       "events": [
