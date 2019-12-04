@@ -1648,10 +1648,10 @@
       ],
       "behaviors": [
         {
-          "canGrabPlatforms": true,
           "name": "PlatformerObject",
-          "roundCoordinates": true,
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "canGrabPlatforms": true,
+          "roundCoordinates": true,
           "deceleration": 1500,
           "acceleration": 1500,
           "gravity": 1000,
@@ -3895,8 +3895,8 @@
           "locked": false,
           "name": "Zero",
           "width": 64,
-          "x": 44,
-          "y": 201,
+          "x": 4398,
+          "y": 147,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -4360,15 +4360,15 @@
           "locked": false,
           "name": "GenericSwordman",
           "width": 64,
-          "x": 4582,
-          "y": 175,
+          "x": 5206,
+          "y": 388,
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
             {
               "name": "Direction",
-              "value": "2"
+              "value": "1"
             }
           ]
         },
@@ -4548,21 +4548,6 @@
           "x": 4793,
           "y": -472,
           "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 92,
-          "layer": "Game",
-          "locked": false,
-          "name": "ladder",
-          "width": 68,
-          "x": 4717,
-          "y": 238,
-          "zOrder": 104,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4858,6 +4843,126 @@
           "x": 4248,
           "y": 288,
           "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "Game",
+          "locked": false,
+          "name": "GenericSwordman",
+          "width": 64,
+          "x": 4582,
+          "y": 175,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "Game",
+          "locked": false,
+          "name": "GenericSwordman",
+          "width": 64,
+          "x": 4965,
+          "y": 387,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "Game",
+          "locked": false,
+          "name": "GenericSwordman",
+          "width": 64,
+          "x": 5075,
+          "y": 389,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RightPointer",
+          "width": 0,
+          "x": 4784,
+          "y": 413,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "LeftPointer",
+          "width": 0,
+          "x": 4974,
+          "y": 411,
+          "zOrder": 107,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RightPointer",
+          "width": 0,
+          "x": 5133,
+          "y": 411,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "LeftPointer",
+          "width": 0,
+          "x": 5303,
+          "y": 412,
+          "zOrder": 109,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5883,9 +5988,9 @@
           "variables": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
               "yGrabOffset": 5,
               "platformType": "Ladder"
             }
@@ -8532,7 +8637,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "[Generical] Enemy > Moviments",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8557,21 +8662,7 @@
                   "subInstructions": []
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "EnemyGroup",
-                    "Direction",
-                    "=",
-                    "5"
-                  ],
-                  "subInstructions": []
-                }
-              ],
+              "actions": [],
               "events": []
             },
             {
@@ -9423,6 +9514,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "EnemyGroup",
+                    "Direction",
+                    "=",
+                    "5"
+                  ],
+                  "subInstructions": []
+                },
                 {
                   "type": {
                     "inverted": false,
