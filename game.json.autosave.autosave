@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.zero.chronicles.katana",
-    "projectFile": "C:\\Users\\mathe\\Documents\\GitHub\\KatanaChroniclesZero\\game.json.autosave",
+    "projectFile": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\KatanaChroniclesZero\\game.json.autosave",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -1506,6 +1506,15 @@
         "kind": "image",
         "metadata": "",
         "name": "Sprites\\Stage 1\\Plataform\\ladder_room.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Stage 1/Background/wall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Stage 1\\Background\\wall.png",
         "smoothed": true,
         "userAdded": true
       }
@@ -3599,7 +3608,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 32,
@@ -3607,9 +3616,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 32,
-        "snap": false,
+        "snap": true,
         "windowMask": false,
-        "zoomFactor": 2.242
+        "zoomFactor": 0.97
       },
       "objectsGroups": [
         {
@@ -3640,8 +3649,8 @@
           "locked": false,
           "name": "Zero",
           "width": 64,
-          "x": 4172,
-          "y": 194,
+          "x": 22,
+          "y": 224,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -4155,7 +4164,7 @@
           "locked": false,
           "name": "GenericSwordman",
           "width": 64,
-          "x": 640,
+          "x": 544,
           "y": 224,
           "zOrder": 1,
           "numberProperties": [],
@@ -4391,6 +4400,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 576,
+          "layer": "Background-1",
+          "locked": false,
+          "name": "Wall",
+          "width": 4064,
+          "x": -480,
+          "y": 288,
+          "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -4446,8 +4470,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 20.5,
+                        "y": -2
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -4458,20 +4482,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0.0341797,
-                            "y": 0.625
+                            "x": 24.043,
+                            "y": 0.416667
                           },
                           {
-                            "x": 19.0967,
-                            "y": 0
+                            "x": 40.293,
+                            "y": 0.833333
                           },
                           {
-                            "x": 23.7842,
-                            "y": 42.8125
+                            "x": 40.7096,
+                            "y": 42.0833
                           },
                           {
-                            "x": 0.34668,
-                            "y": 42.1875
+                            "x": 18.6263,
+                            "y": 41.6667
                           }
                         ]
                       ]
@@ -4482,8 +4506,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 20.5,
+                        "y": -2
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -4494,20 +4518,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0.0341797,
-                            "y": 0.625
+                            "x": 24.043,
+                            "y": 0.416667
                           },
                           {
-                            "x": 19.0967,
-                            "y": 0
+                            "x": 40.293,
+                            "y": 0.833333
                           },
                           {
-                            "x": 23.7842,
-                            "y": 42.8125
+                            "x": 40.7096,
+                            "y": 42.0833
                           },
                           {
-                            "x": 0.34668,
-                            "y": 42.1875
+                            "x": 18.6263,
+                            "y": 41.6667
                           }
                         ]
                       ]
@@ -4518,8 +4542,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 20.5,
+                        "y": -2
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -4530,20 +4554,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0.0341797,
-                            "y": 0.625
+                            "x": 24.043,
+                            "y": 0.416667
                           },
                           {
-                            "x": 19.0967,
-                            "y": 0
+                            "x": 40.293,
+                            "y": 0.833333
                           },
                           {
-                            "x": 23.7842,
-                            "y": 42.8125
+                            "x": 40.7096,
+                            "y": 42.0833
                           },
                           {
-                            "x": 0.34668,
-                            "y": 42.1875
+                            "x": 18.6263,
+                            "y": 41.6667
                           }
                         ]
                       ]
@@ -4566,8 +4590,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 20.5,
+                        "y": -2
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -4578,20 +4602,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0.532227,
-                            "y": 0
+                            "x": 19.9609,
+                            "y": 1.25
                           },
                           {
-                            "x": 21.3477,
-                            "y": 0.9375
+                            "x": 36.6276,
+                            "y": 1.25
                           },
                           {
-                            "x": 26.6602,
-                            "y": 41.875
+                            "x": 36.2109,
+                            "y": 40.8333
                           },
                           {
-                            "x": 0.532227,
-                            "y": 41.875
+                            "x": 18.7109,
+                            "y": 41.25
                           }
                         ]
                       ]
@@ -4602,8 +4626,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 20.5,
+                        "y": -2
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -4614,20 +4638,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0.532227,
+                            "x": 19.1276,
+                            "y": 2.08333
+                          },
+                          {
+                            "x": 35.7943,
                             "y": 0
                           },
                           {
-                            "x": 21.3477,
-                            "y": 0.9375
+                            "x": 36.6276,
+                            "y": 40.4167
                           },
                           {
-                            "x": 26.6602,
-                            "y": 41.875
-                          },
-                          {
-                            "x": 0.532227,
-                            "y": 41.875
+                            "x": 12.8776,
+                            "y": 40.8333
                           }
                         ]
                       ]
@@ -4638,8 +4662,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 20.5,
+                        "y": -2
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -4650,20 +4674,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0.532227,
-                            "y": 0
+                            "x": 18.2943,
+                            "y": 1.66667
                           },
                           {
-                            "x": 21.3477,
-                            "y": 0.9375
+                            "x": 36.6276,
+                            "y": 2.08333
                           },
                           {
-                            "x": 26.6602,
-                            "y": 41.875
+                            "x": 36.2109,
+                            "y": 40.8333
                           },
                           {
-                            "x": 0.532227,
-                            "y": 41.875
+                            "x": 19.9609,
+                            "y": 40.8333
                           }
                         ]
                       ]
@@ -4674,8 +4698,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 20.5,
+                        "y": -2
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -4686,20 +4710,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0.532227,
-                            "y": 0
+                            "x": 13.7109,
+                            "y": 0.416667
                           },
                           {
-                            "x": 21.3477,
-                            "y": 0.9375
+                            "x": 32.0443,
+                            "y": 1.25
                           },
                           {
-                            "x": 26.6602,
-                            "y": 41.875
+                            "x": 36.2109,
+                            "y": 40.8333
                           },
                           {
-                            "x": 0.532227,
-                            "y": 41.875
+                            "x": 8.71094,
+                            "y": 41.6667
                           }
                         ]
                       ]
@@ -4722,8 +4746,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 20.5,
+                        "y": -2
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -4739,8 +4763,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 20.5,
+                        "y": -2
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -4756,8 +4780,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 20.5,
+                        "y": -2
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -4773,8 +4797,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 20.5,
+                        "y": -2
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -4790,8 +4814,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 20.5,
+                        "y": -2
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -4819,8 +4843,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 20.5,
+                        "y": -2
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -4836,8 +4860,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 20.5,
+                        "y": -2
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -4853,8 +4877,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 20.5,
+                        "y": -2
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -4870,8 +4894,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 20.5,
+                        "y": -2
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -4887,8 +4911,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 20.5,
+                        "y": -2
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -4904,8 +4928,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 20.5,
+                        "y": -2
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -4933,8 +4957,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 20.5,
+                        "y": -2
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -4950,8 +4974,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 20.5,
+                        "y": -2
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -5413,13 +5437,23 @@
           "variables": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "Ladder",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Ladder",
               "yGrabOffset": 0
             }
           ]
+        },
+        {
+          "height": 360,
+          "name": "Wall",
+          "tags": "",
+          "texture": "Sprites\\Stage 1\\Background\\wall.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 640,
+          "variables": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -6528,7 +6562,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Zero > Saber_Attack",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8439,6 +8473,54 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "EnemyGroup",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "\"Dash_Attack\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "EnemyGroup",
+                    "Death",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "VarObjet"
                   },
                   "parameters": [
@@ -8474,13 +8556,13 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "[Swordman] Enemy > Moviments",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "disabled": false,
+              "disabled": true,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -8592,7 +8674,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "disabled": false,
+              "disabled": true,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -8784,6 +8866,44 @@
                   "events": []
                 }
               ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Raycast"
+                  },
+                  "parameters": [
+                    "GenericSwordman",
+                    "Zero.X()",
+                    "Zero.Y()",
+                    "Zero.Angle()",
+                    "220",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "GenericSwordman",
+                    "\"Simple-Attack\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ],
           "parameters": []
