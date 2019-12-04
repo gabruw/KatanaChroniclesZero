@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.zero.chronicles.katana",
-    "projectFile": "C:\\Users\\mathe\\Documents\\GitHub\\KatanaChroniclesZero\\game.json.autosave",
+    "projectFile": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\KatanaChroniclesZero\\game.json.autosave",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -1389,6 +1389,15 @@
         "kind": "image",
         "metadata": "",
         "name": "Sprites\\scenario\\room_1_wall_end.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Stage 1/Background/naves.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Stage 1\\Background\\naves.png",
         "smoothed": true,
         "userAdded": true
       }
@@ -3492,7 +3501,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 2.674
+        "zoomFactor": 0.754
       },
       "objectsGroups": [
         {
@@ -3605,7 +3614,7 @@
           "width": 5888,
           "x": -480,
           "y": 288,
-          "zOrder": 10,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4196,6 +4205,21 @@
           "x": 5120,
           "y": 65,
           "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 256,
+          "layer": "Background-1",
+          "locked": false,
+          "name": "Naves",
+          "width": 960,
+          "x": 4377,
+          "y": 288,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5170,6 +5194,16 @@
           "topMargin": 0,
           "type": "PanelSpriteObject::PanelSprite",
           "width": 15,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "height": 255,
+          "name": "Naves",
+          "tags": "",
+          "texture": "Sprites\\Stage 1\\Background\\naves.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 433,
           "variables": [],
           "behaviors": []
         }

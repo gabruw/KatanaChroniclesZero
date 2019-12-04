@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.zero.chronicles.katana",
-    "projectFile": "C:\\Users\\mathe\\Documents\\GitHub\\KatanaChroniclesZero\\game.json.autosave",
+    "projectFile": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\KatanaChroniclesZero\\game.json.autosave",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -1371,6 +1371,33 @@
         "kind": "image",
         "metadata": "",
         "name": "Sprites\\scenario\\Room_filling_texture.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/scenario/room_1_wall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\scenario\\room_1_wall.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/scenario/room_1_wall_end.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\scenario\\room_1_wall_end.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Stage 1/Background/naves.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Stage 1\\Background\\naves.png",
         "smoothed": true,
         "userAdded": true
       }
@@ -3474,7 +3501,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.73
+        "zoomFactor": 0.754
       },
       "objectsGroups": [
         {
@@ -3587,7 +3614,7 @@
           "width": 5888,
           "x": -480,
           "y": 288,
-          "zOrder": 10,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4100,8 +4127,8 @@
           "locked": false,
           "name": "bricks",
           "width": 241,
-          "x": 4818,
-          "y": 65,
+          "x": 5152,
+          "y": -64,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -4148,6 +4175,51 @@
           "x": 4248,
           "y": 288,
           "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 225,
+          "layer": "",
+          "locked": false,
+          "name": "Room_1_wallleft",
+          "width": 299,
+          "x": 4821,
+          "y": 65,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 225,
+          "layer": "",
+          "locked": false,
+          "name": "Room_1_wall_end",
+          "width": 15,
+          "x": 5120,
+          "y": 65,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 256,
+          "layer": "Background-1",
+          "locked": false,
+          "name": "Naves",
+          "width": 960,
+          "x": 4377,
+          "y": 288,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5092,6 +5164,46 @@
           "topMargin": 0,
           "type": "PanelSpriteObject::PanelSprite",
           "width": 40,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "bottomMargin": 0,
+          "height": 225,
+          "leftMargin": 0,
+          "name": "Room_1_wallleft",
+          "rightMargin": 0,
+          "tags": "",
+          "texture": "Sprites\\scenario\\room_1_wall.png",
+          "tiled": true,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 20,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "bottomMargin": 0,
+          "height": 225,
+          "leftMargin": 0,
+          "name": "Room_1_wall_end",
+          "rightMargin": 0,
+          "tags": "",
+          "texture": "Sprites\\scenario\\room_1_wall_end.png",
+          "tiled": true,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 15,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "height": 255,
+          "name": "Naves",
+          "tags": "",
+          "texture": "Sprites\\Stage 1\\Background\\naves.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 433,
           "variables": [],
           "behaviors": []
         }
