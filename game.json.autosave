@@ -5272,13 +5272,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 185,
+          "height": 192,
           "layer": "Game",
           "locked": false,
           "name": "Room_filling_texture",
-          "width": 497,
-          "x": 4785,
-          "y": -114,
+          "width": 1088,
+          "x": 5280,
+          "y": -176,
           "zOrder": 51,
           "numberProperties": [],
           "stringProperties": [],
@@ -5603,6 +5603,21 @@
               "value": "5"
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 185,
+          "layer": "Game",
+          "locked": false,
+          "name": "Room_filling_texture",
+          "width": 497,
+          "x": 4785,
+          "y": -114,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
