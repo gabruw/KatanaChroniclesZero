@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.zero.chronicles.katana",
-    "projectFile": "C:\\Users\\gabriel.frança\\Documents\\GitHub\\KatanaChroniclesZero\\game.json.autosave",
+    "projectFile": "C:\\Users\\mathe\\Documents\\GitHub\\KatanaChroniclesZero\\game.json.autosave",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -1850,6 +1850,10 @@
         },
         {
           "name": "Side",
+          "value": "0"
+        },
+        {
+          "name": "Damaged",
           "value": "0"
         }
       ],
@@ -4147,7 +4151,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.538
+        "zoomFactor": 0.898
       },
       "objectsGroups": [
         {
@@ -4615,21 +4619,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Background-2",
-          "locked": false,
-          "name": "Room1_bg",
-          "width": 0,
-          "x": 3924,
-          "y": 66,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "height": 64,
           "layer": "Game",
@@ -4868,7 +4857,7 @@
           "width": 0,
           "x": 3924,
           "y": 66,
-          "zOrder": 1,
+          "zOrder": -3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5128,7 +5117,7 @@
           "width": 917,
           "x": 4529,
           "y": 262,
-          "zOrder": -1,
+          "zOrder": -5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5186,8 +5175,8 @@
           "locked": false,
           "name": "BlackPointer",
           "width": 32,
-          "x": 5264,
-          "y": -64,
+          "x": 5256,
+          "y": -62,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -7618,7 +7607,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Assets",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7743,7 +7732,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Camera + Parallax",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7854,7 +7843,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Zero > Moviments",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8388,7 +8377,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Zero > Saber_Attack",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8886,7 +8875,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Zero > Collision",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9171,6 +9160,63 @@
                   "events": []
                 }
               ]
+            },
+            {
+              "disabled": true,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Damaged",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "\"Damaged\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "\"Damaged\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Zero",
+                    "Damaged",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ],
           "parameters": []
@@ -9181,7 +9227,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Zero > Life",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9986,7 +10032,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "[Generical] Enemy > Assets",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10465,7 +10511,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "[Generical] Enemy > Mechanics",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
