@@ -1805,6 +1805,48 @@
         "name": "Sprites\\Stage 1\\FloatPlat\\float_4.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "Songs/GameOver/Sad.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Songs\\GameOver\\Sad.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/ZERO/jump_zero/jump.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\ZERO\\jump_zero\\jump.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/ZERO/sabre/sabre_sound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\ZERO\\sabre\\sabre_sound.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/shot/energy_shot_2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\shot\\energy_shot_2.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "Songs/Stage_01/MegaMan X Goes Metal - 'First Stage Theme' - Beyond Our Eyes 00_00_00-00_01_31.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Songs\\Stage_01\\MegaMan X Goes Metal - 'First Stage Theme' - Beyond Our Eyes 00_00_00-00_01_31.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/ZERO/zero_damage/HIT.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\ZERO\\zero_damage\\HIT.mp3",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1859,6 +1901,7 @@
       ],
       "behaviors": [
         {
+          "ignoreDefaultControls": false,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "canGrabPlatforms": true,
@@ -1866,7 +1909,6 @@
           "deceleration": 1500,
           "acceleration": 1500,
           "gravity": 1000,
-          "ignoreDefaultControls": false,
           "jumpSpeed": 600,
           "maxFallingSpeed": 700,
           "maxSpeed": 250,
@@ -4151,7 +4193,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.898
+        "zoomFactor": 0.97
       },
       "objectsGroups": [
         {
@@ -4185,7 +4227,7 @@
           "locked": false,
           "name": "Zero",
           "width": 64,
-          "x": 77,
+          "x": 46,
           "y": 224,
           "zOrder": 100,
           "numberProperties": [],
@@ -4989,10 +5031,10 @@
           "layer": "Game",
           "locked": false,
           "name": "bricks",
-          "width": 952,
+          "width": 32,
           "x": 5362,
-          "y": 283,
-          "zOrder": 51,
+          "y": 277,
+          "zOrder": 47,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5215,13 +5257,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 185,
+          "height": 283,
           "layer": "Game",
           "locked": false,
           "name": "Room_filling_texture",
           "width": 1079,
-          "x": 5267,
-          "y": -170,
+          "x": 5390,
+          "y": 292,
           "zOrder": 51,
           "numberProperties": [],
           "stringProperties": [],
@@ -7090,6 +7132,40 @@
           "target": "EnemyEvents"
         },
         {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Songs\\Stage_01\\MegaMan X Goes Metal - 'First Stage Theme' - Beyond Our Eyes 00_00_00-00_01_31.mp3",
+                "yes",
+                "35",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -7566,6 +7642,40 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Songs\\GameOver\\Sad.mp3",
+                "yes",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "layers": [
@@ -7753,7 +7863,7 @@
                     "Zero",
                     "0",
                     "0",
-                    "min(5500, max(Zero.X(), 5500))",
+                    "min(6340, max(Zero.X(), 6340))",
                     "min(720, max(Zero.Y(), 720))",
                     "no",
                     "\"Game\"",
@@ -8265,6 +8375,14 @@
                     "x"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -8276,6 +8394,20 @@
                   "parameters": [
                     "Zero",
                     "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sounds\\ZERO\\jump_zero\\jump.mp3",
+                    "",
+                    "80",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -8492,6 +8624,20 @@
                             "Attack",
                             "=",
                             "1"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "Sounds\\ZERO\\sabre\\sabre_sound.mp3",
+                            "",
+                            "50",
+                            "2"
                           ],
                           "subInstructions": []
                         }
@@ -8909,9 +9055,32 @@
                     "z"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sounds\\ZERO\\zero_damage\\HIT.mp3",
+                    "",
+                    "50",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": [
                 {
                   "disabled": false,
@@ -8999,9 +9168,32 @@
                     "z"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sounds\\ZERO\\zero_damage\\HIT.mp3",
+                    "",
+                    "50",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": [
                 {
                   "disabled": false,
@@ -9100,9 +9292,32 @@
                     "z"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sounds\\ZERO\\zero_damage\\HIT.mp3",
+                    "",
+                    "50",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": [
                 {
                   "disabled": false,
@@ -10099,7 +10314,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "[Generical] Enemy > Moviments",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10881,6 +11096,20 @@
                     "\"Simple-Attack\""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sounds\\ZERO\\sabre\\sabre_sound.mp3",
+                    "",
+                    "50",
+                    "2"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -10907,7 +11136,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "[Shooter] Enemy > Shooting",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11012,6 +11241,20 @@
                       "parameters": [
                         "EnemyGroup",
                         "\"EnemyShootingCountdown\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Sounds\\shot\\energy_shot_2.mp3",
+                        "",
+                        "50",
+                        ""
                       ],
                       "subInstructions": []
                     }
