@@ -1760,6 +1760,51 @@
         "name": "Sprites\\Stage 1\\Background\\tubes_BG.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Stage 1/Plataform/spikes.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Stage 1\\Plataform\\spikes.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Stage 1/FloatPlat/float_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Stage 1\\FloatPlat\\float_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Stage 1/FloatPlat/float_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Stage 1\\FloatPlat\\float_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Stage 1/FloatPlat/float_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Stage 1\\FloatPlat\\float_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Stage 1/FloatPlat/float_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Stage 1\\FloatPlat\\float_4.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4102,7 +4147,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 1.402
+        "zoomFactor": 1.066
       },
       "objectsGroups": [
         {
@@ -4196,7 +4241,7 @@
           "locked": false,
           "name": "Comp",
           "width": 5888,
-          "x": -480,
+          "x": -474,
           "y": 289,
           "zOrder": 0,
           "numberProperties": [],
@@ -4556,8 +4601,8 @@
           "locked": false,
           "name": "GenericSwordman",
           "width": 64,
-          "x": 5106,
-          "y": 475,
+          "x": 5823,
+          "y": 208,
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
@@ -4646,13 +4691,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 31,
+          "height": 76,
           "layer": "Game",
           "locked": false,
           "name": "Room_filling_texture",
           "width": 10,
-          "x": 5282,
-          "y": 54,
+          "x": 5281,
+          "y": 12,
           "zOrder": 51,
           "numberProperties": [],
           "stringProperties": [],
@@ -4677,13 +4722,13 @@
           "angle": 0,
           "customSize": true,
           "height": 256,
-          "layer": "Background-1",
+          "layer": "Game",
           "locked": false,
           "name": "Naves",
           "width": 960,
           "x": 5296,
           "y": 22,
-          "zOrder": 5,
+          "zOrder": -3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4706,28 +4751,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 64,
-          "layer": "Game",
-          "locked": false,
-          "name": "Room_floor1",
-          "width": 1330,
-          "x": 4554,
-          "y": 509,
-          "zOrder": 52,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 352,
           "layer": "",
           "locked": false,
           "name": "BlackPointer",
           "width": 32,
-          "x": 4793,
-          "y": -472,
+          "x": 6443,
+          "y": -38,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -4781,13 +4811,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 170,
+          "height": 203,
           "layer": "Game",
           "locked": false,
           "name": "ladder",
           "width": 68,
           "x": 5294,
-          "y": 284,
+          "y": 244,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -4966,7 +4996,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 408,
+          "height": 297,
           "layer": "Game",
           "locked": false,
           "name": "bricks",
@@ -5021,8 +5051,8 @@
           "locked": false,
           "name": "GenericSwordman",
           "width": 64,
-          "x": 4837,
-          "y": 475,
+          "x": 5490,
+          "y": 211,
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
@@ -5041,8 +5071,8 @@
           "locked": false,
           "name": "GenericSwordman",
           "width": 64,
-          "x": 4975,
-          "y": 475,
+          "x": 5653,
+          "y": 209,
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
@@ -5061,8 +5091,8 @@
           "locked": false,
           "name": "RightPointer",
           "width": 0,
-          "x": 4739,
-          "y": 449,
+          "x": 5422,
+          "y": 196,
           "zOrder": 106,
           "numberProperties": [],
           "stringProperties": [],
@@ -5076,8 +5106,8 @@
           "locked": false,
           "name": "LeftPointer",
           "width": 0,
-          "x": 5215,
-          "y": 449,
+          "x": 5858,
+          "y": 205,
           "zOrder": 109,
           "numberProperties": [],
           "stringProperties": [],
@@ -5093,7 +5123,7 @@
           "width": 1063,
           "x": 5282,
           "y": 15,
-          "zOrder": 0,
+          "zOrder": -2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5136,13 +5166,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 260,
+          "height": 347,
           "layer": "Game",
           "locked": false,
           "name": "tubesBG",
           "width": 917,
-          "x": 4474,
-          "y": 281,
+          "x": 4531,
+          "y": 270,
           "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
@@ -5181,7 +5211,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 233,
+          "height": 110,
           "layer": "Game",
           "locked": false,
           "name": "Room_filling_texture",
@@ -5233,7 +5263,22 @@
           "width": 15,
           "x": 5281,
           "y": 66,
-          "zOrder": 15,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 185,
+          "layer": "Game",
+          "locked": false,
+          "name": "Room_filling_texture",
+          "width": 1079,
+          "x": 5267,
+          "y": -170,
+          "zOrder": 51,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5249,6 +5294,156 @@
           "x": 4785,
           "y": -114,
           "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 352,
+          "layer": "",
+          "locked": false,
+          "name": "BlackPointer",
+          "width": 32,
+          "x": 6312,
+          "y": -13,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 352,
+          "layer": "",
+          "locked": false,
+          "name": "BlackPointer",
+          "width": 32,
+          "x": 6440,
+          "y": -528,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "Game",
+          "locked": false,
+          "name": "Room_floor1",
+          "width": 951,
+          "x": 5363,
+          "y": 244,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "Game",
+          "locked": false,
+          "name": "Room_floor1",
+          "width": 251,
+          "x": 4554,
+          "y": 507,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "Game",
+          "locked": false,
+          "name": "Room_floor1",
+          "width": 251,
+          "x": 5111,
+          "y": 507,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 48,
+          "layer": "Game",
+          "locked": false,
+          "name": "Spikes",
+          "width": 310,
+          "x": 4803,
+          "y": 526,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "KillZone",
+          "width": 312,
+          "x": 4804,
+          "y": 542,
+          "zOrder": 113,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 75,
+          "layer": "Game",
+          "locked": false,
+          "name": "Floating_Plat",
+          "width": 107,
+          "x": 4903,
+          "y": 437,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "LeftPointer",
+          "width": 0,
+          "x": 5139,
+          "y": 446,
+          "zOrder": 114,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "RightPointer",
+          "width": 0,
+          "x": 4733,
+          "y": 446,
+          "zOrder": 115,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6619,6 +6814,119 @@
           "width": 774,
           "variables": [],
           "behaviors": []
+        },
+        {
+          "height": 48,
+          "name": "Spikes",
+          "tags": "",
+          "texture": "Sprites\\Stage 1\\Plataform\\spikes.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "name": "Floating_Plat",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Move",
+              "value": "0"
+            }
+          ],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "Jumpthru",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Floating",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\Stage 1\\FloatPlat\\float_0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\Stage 1\\FloatPlat\\float_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\Stage 1\\FloatPlat\\float_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\Stage 1\\FloatPlat\\float_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -6639,6 +6947,166 @@
             "includeConfig": 0
           },
           "target": "EnemyEvents"
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Floating Platform",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Floating_Plat",
+                    "RightPointer",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Floating_Plat",
+                    "Move",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Floating_Plat",
+                    "LeftPointer",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Floating_Plat",
+                    "Move",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Floating_Plat",
+                    "Move",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Floating_Plat",
+                    "-100",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Floating_Plat",
+                    "Move",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Floating_Plat",
+                    "\n100",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
